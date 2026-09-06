@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
 <style>
   :root{
     --bg:#12140f;
@@ -263,7 +264,93 @@
     <div id="resultsWrap"></div>
   </details>
 
+  <div id="kasifWidget">
+  <div id="kasifLog"></div>
+  <button id="kasifBtn" data-state="idle" title="Kaşif'e konuşun">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+      <path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3Z"/>
+      <path d="M19 11v1a7 7 0 0 1-14 0v-1M12 19v3"/>
+    </svg>
+  </button>
 </div>
+
+</div>
+
+/* ── Kaşif sesli asistan ────────────────────────────────────────── */
+const kasifBtn = document.getElementById('kasifBtn');
+const kasifLog = document.getElementById('kasifLog');
+
+function kasifSetState(state){ kasifBtn.dataset.state = state; }
+
+function kasifLogLine(who, text){
+  kasifLog.classList.add('show');
+  const p = document.createElement('div');
+  p.className = 'kasif-line ' + who;
+  p.textContent = (who === 'user' ? 'Siz: ' : 'Kaşif: ') + text;
+  kasifLog.appendChild(p);
+  kasifLog.scrollTop = kasifLog.scrollHeight;
+}
+
+async function kasifSpeak(text){
+  kasifLogLine('kasif', text);
+  kasifSetState('speaking');
+  try{
+    const res = await fetch('/api/kasif/speak', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ text })
+    });
+    if (!res.ok){ kasifSetState('idle'); return; }
+    const blob = await res.blob();
+    const audio = new Audio(URL.createObjectURL(blob));
+    audio.onended = () => kasifSetState('idle');
+    audio.play();
+  } catch(e){ kasifSetState('idle'); }
+}
+
+async function kasifHandleCommand(text){
+  kasifLogLine('user', text);
+  kasifSetState('thinking');
+  const t = text.toLocaleLowerCase('tr-TR');
+  try{
+    if (t.includes('durum')){
+      const s = await fetchJSON('/api/ecosystem/status');
+      await kasifSpeak(`Şu anda ${s.agents ? s.agents.length : 0} ajan aktif. Toplam ${s.total_results ?? 0} bulgu kaydedildi.`);
+    } else if (t.includes('uyar')){
+      const a = await fetchJSON('/api/ecosystem/alerts');
+      await kasifSpeak(a.count ? `${a.count} aktif uyarı var. En son: ${a.alerts[0].title}.` : 'Şu anda aktif bir uyarı yok.');
+    } else if (t.includes('bulgu') || t.includes('akış')){
+      const f = await fetchJSON('/api/ecosystem/feed?limit=1');
+      await kasifSpeak((f.feed && f.feed.length) ? `Son bulgu: ${f.feed[0].title}.` : 'Henüz bir bulgu yok.');
+    } else if (t.includes('merhaba') || t.includes('selam')){
+      await kasifSpeak('Merhaba, ben Kaşif. Size nasıl yardımcı olabilirim?');
+    } else {
+      await kasifSpeak('Bunu anlayamadım. Durum, uyarılar ya da son bulgu diyebilirsiniz.');
+    }
+  } catch(e){ await kasifSpeak('Bir sorun oluştu, sunucuya ulaşamadım.'); }
+}
+
+let kasifRecognition = null;
+(function kasifInit(){
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR){
+    kasifBtn.title = 'Bu tarayıcı sesli tanımayı desteklemiyor (Chrome önerilir)';
+    kasifBtn.disabled = true;
+    return;
+  }
+  kasifRecognition = new SR();
+  kasifRecognition.lang = 'tr-TR';
+  kasifRecognition.continuous = false;
+  kasifRecognition.interimResults = false;
+  kasifRecognition.onresult = (e) => kasifHandleCommand(e.results[0][0].transcript);
+  kasifRecognition.onend = () => { if (kasifBtn.dataset.state === 'listening') kasifSetState('idle'); };
+  kasifRecognition.onerror = () => kasifSetState('idle');
+})();
+
+kasifBtn.addEventListener('click', () => {
+  if (!kasifRecognition || kasifBtn.dataset.state !== 'idle') return;
+  kasifSetState('listening');
+  kasifRecognition.start();
+});
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>

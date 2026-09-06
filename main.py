@@ -7,6 +7,10 @@ Ortam değişkenleri (.env):
     YOUTUBE_API_KEY=...      (isteğe bağlı - video katmanı için)
     ANTHROPIC_API_KEY=...    (AI özet motoru için)
 """
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import os
 from dotenv import load_dotenv
 

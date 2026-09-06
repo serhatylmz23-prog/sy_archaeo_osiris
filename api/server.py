@@ -11,7 +11,9 @@ from contextlib import asynccontextmanager
 from typing import Optional
 
 import cv2
+import httpx
 import numpy as np
+from pydantic import BaseModel
 from fastapi import FastAPI, File, Form, UploadFile, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
@@ -69,6 +71,67 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+AZURE_SPEECH_KEY = os.getenv("AZURE_SPEECH_KEY")
+AZURE_SPEECH_REGION = os.getenv("AZURE_SPEECH_REGION", "eastus")
+AZURE_SPEECH_VOICE = os.getenv("AZURE_SPEECH_VOICE", "tr-TR-AhuNeural")
+
+_azure_token_cache = {"token": None, "expires": 0.0}
+
+async def get_azure_token() -> Optional[str]:
+    now = asyncio.get_event_loop().time()
+    if _azure_token_cache["token"] and now < _azure_token_cache["expires"]:
+        return _azure_token_cache["token"]
+    url = f"https://{AZURE_SPEECH_REGION}.api.cognitive.microsoft.com/sts/v1.0/issueToken"
+    async with httpx.AsyncClient(timeout=10) as client:
+        r = await client.post(url, headers={"Ocp-Apim-Subscription-Key": AZURE_SPEECH_KEY})
+        if r.status_code != 200:
+            logger.error(f"Azure token hatası: {r.status_code} {r.text}")
+            return None
+        _azure_token_cache["token"] = r.text
+        _azure_token_cache["expires"] = now + 540  # ~9 dk geçerli
+        return r.text
+
+def _escape_ssml(text: str) -> str:
+    return (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                .replace('"', "&quot;").replace("'", "&apos;"))
+
+async def synthesize_speech(text: str) -> Optional[bytes]:
+    token = await get_azure_token()
+    if not token:
+        return None
+    url = f"https://{AZURE_SPEECH_REGION}.tts.speech.microsoft.com/cognitiveservices/v1"
+    ssml = (
+        f"<speak version='1.0' xml:lang='tr-TR'>"
+        f"<voice xml:lang='tr-TR' xml:gender='Female' name='{AZURE_SPEECH_VOICE}'>"
+        f"{_escape_ssml(text)}</voice></speak>"
+    )
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/ssml+xml",
+        "X-Microsoft-OutputFormat": "audio-16khz-128kbitrate-mono-mp3",
+        "User-Agent": "ArchaeoOsiris-Kasif",
+    }
+    async with httpx.AsyncClient(timeout=15) as client:
+        r = await client.post(url, headers=headers, content=ssml.encode("utf-8"))
+        if r.status_code != 200:
+            logger.error(f"Azure TTS hatası: {r.status_code} {r.text[:300]}")
+            return None
+        return r.content
+
+
+class SpeakRequest(BaseModel):
+    text: str
+
+
+@app.post("/api/kasif/speak")
+async def kasif_speak(payload: SpeakRequest):
+    if not AZURE_SPEECH_KEY:
+        return JSONResponse(status_code=503, content={"error": "AZURE_SPEECH_KEY tanımlı değil"})
+    audio = await synthesize_speech(payload.text)
+    if audio is None:
+        return JSONResponse(status_code=502, content={"error": "Azure Speech sentezi başarısız"})
+    from fastapi import Response
+    return Response(content=audio, media_type="audio/mpeg")
 
 # ── Video akışı ────────────────────────────────────────────────────────────
 def generate_video_frames():
