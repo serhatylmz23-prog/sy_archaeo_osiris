@@ -1,0 +1,17 @@
+# Ortam / gizli bilgiler
+.env
+.env.local
+.ssh/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vs/
+
+# Proje çalışma klasörleri
+temp_uploads/
+processed_output/

@@ -1,0 +1,28 @@
+# ARCHAEO-OSIRIS v2.0 — Bağımlılıklar
+
+# Web sunucu
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# HTTP istemci (async, gerçek veri çekme)
+httpx>=0.27.0
+
+# HTML ayrıştırma
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# Görüntü işleme
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+
+# Çevre değişkenleri
+python-dotenv>=1.0.0
+
+# Veri doğrulama
+pydantic>=2.7.0
+
+# (İsteğe bağlı - gelecek geliştirme)
+# anthropic>=0.28.0    # AI özet motoru
+# Pillow>=10.3.0       # Ek görüntü formatları
+# aiofiles>=23.2.1     # Async dosya okuma
