@@ -117,6 +117,7 @@
 
   /* Map */
   #map{ flex:1; background:#0d0f0b; }
+  .leaflet-tile-pane{ filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9); }
   .leaflet-popup-content-wrapper{ background:var(--card); color:var(--ink); border-radius:var(--radius); }
   .leaflet-popup-tip{ background:var(--card); }
   .leaflet-popup-content{ font-family:'IBM Plex Sans', sans-serif; font-size:12.5px; margin:10px 12px; }
@@ -306,9 +307,9 @@ const agentValueToLayer = Object.fromEntries(LAYERS.map(l => [l.agentValue, l]))
 
 /* ── Harita ──────────────────────────────────────────────────────── */
 const map = L.map('map', { zoomControl:true }).setView([39.0, 35.0], 6);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &copy; CARTO',
-  subdomains:'abcd', maxZoom:19,
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap katkıda bulunanlar',
+  maxZoom: 19,
 }).addTo(map);
 
 const layerGroups = {};
@@ -465,12 +466,22 @@ function renderResults(results){
     const card = document.createElement('div');
     card.className = 'result-card' + (r.type === 'error' ? ' error' : '');
     if (r.type === 'image'){
+      const calloutsHtml = (r.callouts || []).map(c => {
+        const color = c.trust_score >= 0.8 ? '#8fae7c' : (c.trust_score >= 0.5 ? '#ffb74d' : '#c1502e');
+        return `<div style="border:2px solid ${color};border-radius:4px;padding:6px;text-align:center;width:130px;">
+          <img src="data:image/jpeg;base64,${c.crop_b64}" style="width:100%;border-radius:2px;">
+          <div style="font-size:11px;color:${color};margin-top:4px;">${escapeHtml(c.id)}</div>
+          <div style="font-size:10px;color:var(--ink-faint);">${escapeHtml(c.status)} — %${Math.round(c.trust_score*100)}</div>
+        </div>`;
+      }).join('');
       card.innerHTML =
         '<img class="thumb" src="data:image/jpeg;base64,' + r.image_b64 + '">' +
         '<div class="body"><div class="kind">GÖRSEL</div><h4>' + escapeHtml(r.source) + '</h4>' +
         '<div class="kv-row"><span><b>Oyuk/işaret sayısı:</b> ' + (r.cavity_count ?? 0) + '</span>' +
         '<span><b>Filtre:</b> ' + escapeHtml(r.filter_applied) + '</span></div>' +
-        dictToKv(r.authenticity, 'Otantiklik') + '</div>';
+        dictToKv(r.authenticity, 'Otantiklik') +
+        (r.callouts && r.callouts.length ? '<div class="kv-row" style="margin-top:6px;"><span><b>İşaretler:</b></span></div><div style="display:flex;flex-wrap:wrap;gap:8px;">' + calloutsHtml + '</div>' : '') +
+                (calloutsHtml ? `<div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;">${calloutsHtml}</div>` : '') +'</div>';
     } else if (r.type === 'link'){
       const thumbs = (r.media || []).map(u => '<img class="thumb" style="max-width:90px;max-height:70px" src="' + u + '">').join('');
       card.innerHTML =
@@ -515,8 +526,11 @@ form.addEventListener('submit', async e => {
   uploadStatus.textContent = 'Analiz ediliyor…';
   try{
     const res = await fetch('/api/pipeline/analyze', { method:'POST', body:fd });
+    if (!res.ok){
+    const text = await res.text();
+      throw new Error(`Sunucu hatası (${res.status}): ${text.slice(0, 150)}`);
+    }
     const data = await res.json();
-    if (!res.ok) throw new Error(data.detail ? JSON.stringify(data.detail) : 'Sunucu hatası');
     uploadStatus.textContent = data.count + ' sonuç bulundu.';
     renderResults(data.results || []);
   } catch(err){

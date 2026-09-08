@@ -30,6 +30,22 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
+def _to_jsonable(obj):
+    """NumPy tiplerini (int32, float64, ndarray vb.) düz Python tiplerine çevirir."""
+    if isinstance(obj, dict):
+        return {k: _to_jsonable(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_to_jsonable(v) for v in obj]
+    if isinstance(obj, np.integer):
+        return int(obj)
+    if isinstance(obj, np.floating):
+        return float(obj)
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    return obj
+
+
 # ── Global nesneler ────────────────────────────────────────────────────────
 ecosystem: Optional[ArcheoEcosystem] = None
 otantisite = OtantisiteMotoru()
@@ -77,6 +93,7 @@ AZURE_SPEECH_VOICE = os.getenv("AZURE_SPEECH_VOICE", "tr-TR-AhuNeural")
 
 _azure_token_cache = {"token": None, "expires": 0.0}
 
+
 async def get_azure_token() -> Optional[str]:
     now = asyncio.get_event_loop().time()
     if _azure_token_cache["token"] and now < _azure_token_cache["expires"]:
@@ -91,9 +108,11 @@ async def get_azure_token() -> Optional[str]:
         _azure_token_cache["expires"] = now + 540  # ~9 dk geçerli
         return r.text
 
+
 def _escape_ssml(text: str) -> str:
     return (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
                 .replace('"', "&quot;").replace("'", "&apos;"))
+
 
 async def synthesize_speech(text: str) -> Optional[bytes]:
     token = await get_azure_token()
@@ -132,6 +151,7 @@ async def kasif_speak(payload: SpeakRequest):
         return JSONResponse(status_code=502, content={"error": "Azure Speech sentezi başarısız"})
     from fastapi import Response
     return Response(content=audio, media_type="audio/mpeg")
+
 
 # ── Video akışı ────────────────────────────────────────────────────────────
 def generate_video_frames():
@@ -212,6 +232,27 @@ async def pipeline_analyze(
                 "detections": detections,
                 "cavity_count": len(detections),
                 "authenticity": auth.to_dict(),
+                            callouts = []
+            h, w = frame.shape[:2]
+            for i, det in enumerate(detections):
+                cx, cy = det.get("center", det.get("bbox_center", [w // 2, h // 2]))
+                r = det.get("radius", det.get("size", 60))
+                x1, y1 = max(0, int(cx - r * 2)), max(0, int(cy - r * 2))
+                x2, y2 = min(w, int(cx + r * 2)), min(h, int(cy + r * 2))
+                crop = frame[y1:y2, x1:x2]
+                if crop.size == 0:
+                    continue
+                crop_big = cv2.resize(crop, None, fx=3, fy=3, interpolation=cv2.INTER_CUBIC)
+                _, cbuf = cv2.imencode('.jpg', crop_big, [cv2.IMWRITE_JPEG_QUALITY, 90])
+                trust = det.get("trust_score", det.get("confidence", 0.5))
+                status = "Doğrulandı" if trust >= 0.8 else ("İncelenmeli" if trust >= 0.5 else "Düşük Güven")
+                callouts.append({
+                    "id": det.get("id", f"BULGU-{i+1:02d}"),
+                    "type": det.get("type", "bilinmiyor"),
+                    "trust_score": round(float(trust), 2),
+                    "status": status,
+                    "crop_b64": base64.b64encode(cbuf).decode('utf-8'),
+                })
                 "filter_applied": filter_mode,
             })
 
@@ -231,6 +272,7 @@ async def pipeline_analyze(
                     "type": "link",
                     "source": link,
                     "title": result.title,
+                    "callouts": callouts,
                     "summary": result.summary,
                     "relevance": result.relevance_score,
                     "fake_probability": result.fake_probability,
@@ -241,7 +283,7 @@ async def pipeline_analyze(
             else:
                 results.append({"type": "link", "source": link, "error": "Bağlantı kurulamadı"})
 
-    return {"status": "success", "count": len(results), "results": results}
+    return _to_jsonable({"status": "success", "count": len(results), "results": results})
 
 
 # ── Ekosistem durumu endpoint'leri ────────────────────────────────────────

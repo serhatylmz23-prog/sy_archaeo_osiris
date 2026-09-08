@@ -1,0 +1,1565 @@
+INFO:     Started server process [3212]
+INFO:     Waiting for application startup.
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [AkademikAjan] Ajan ba■lat²ld² \u2192 Katman: akademik
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [M³zeAjan²] Ajan ba■lat²ld² \u2192 Katman: m³ze
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [SahaAjan²] Ajan ba■lat²ld² \u2192 Katman: saha
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [ForumAjan²] Ajan ba■lat²ld² \u2192 Katman: forum
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [SembolAjan²] Ajan ba■lat²ld² \u2192 Katman: sembol
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [G÷rselAjan²] Ajan ba■lat²ld² \u2192 Katman: g÷rsel
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [Antikac²Ajan²] Ajan ba■lat²ld² \u2192 Katman: antikac²
+2026-09-08 21:22:50,227 [core.agent_base] INFO: [VideoAjan²] Ajan ba■lat²ld² \u2192 Katman: medya
+2026-09-08 21:22:50,227 [core.ecosystem] INFO: Ekosistem haz²r: 8 ajan y³klendi.
+2026-09-08 21:22:50,227 [core.ecosystem] INFO: Ekosistem ba■lat²l²yor...
+2026-09-08 21:22:50,227 [core.ecosystem] INFO: 8 ajan g÷revi olu■turuldu.
+2026-09-08 21:22:50,227 [api.server] INFO: \u2705 Ekosistem aktif
+2026-09-08 21:22:50,228 [core.agent_base] INFO: [AkademikAjan] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,319 [core.agent_base] INFO: [M³zeAjan²] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,330 [core.agent_base] INFO: [SahaAjan²] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,343 [core.agent_base] INFO: [ForumAjan²] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,355 [core.agent_base] INFO: [SembolAjan²] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,366 [core.agent_base] INFO: [G÷rselAjan²] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,379 [core.agent_base] INFO: [Antikac²Ajan²] Sonsuz d÷ng³ ba■lad².
+2026-09-08 21:22:50,379 [core.agent_base] INFO: [Antikac²Ajan²] 3 kaynak bulundu.
+2026-09-08 21:22:50,392 [core.agent_base] INFO: [VideoAjan²] Sonsuz d÷ng³ ba■lad².
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-09-08 21:22:50,766 [httpx] INFO: HTTP Request: GET https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database "HTTP/1.1 200 OK"
+2026-09-08 21:22:50,816 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=anatolia+bronze+age&hasImages=true "HTTP/1.1 200 OK"
+2026-09-08 21:22:50,818 [core.agent_base] INFO: [M³zeAjan²] 8 kaynak bulundu.
+2026-09-08 21:22:50,840 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category%3ASculptures_from_Turkey&cmtype=file&cmlimit=15&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:22:50,841 [core.agent_base] INFO: [G÷rselAjan²] 1 kaynak bulundu.
+2026-09-08 21:22:50,862 [httpx] INFO: HTTP Request: GET https://www.arkeofili.com "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:22:50,893 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Anatolian+rock+art%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:22:50,894 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:22:51,038 [httpx] INFO: HTTP Request: GET https://opencontext.org/search/?q=excavation+Turkey&rows=10&response=uri-meta "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,040 [core.agent_base] INFO: [SahaAjan²] 0 kaynak bulundu.
+2026-09-08 21:22:51,084 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/206989 "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,147 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Heykel_Kedi.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,190 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:22:51,205 [httpx] INFO: HTTP Request: GET https://www.lostart.de/en/ "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,349 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/206965 "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,352 [httpx] INFO: HTTP Request: GET https://archive.org/advancedsearch.php?q=%28T%C3%BCrkiye+arkeoloji+kaz%C4%B1%29+AND+mediatype%3Amovies&fl%5B%5D=identifier%2Ctitle%2Cdescription&rows=10&output=json "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,369 [core.agent_base] INFO: [VideoAjan²] 0 kaynak bulundu.
+2026-09-08 21:22:51,370 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=archaeology+Turkey+excavation&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,482 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:22:51,609 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/322890 "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,770 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:22:51,843 [httpx] INFO: HTTP Request: GET https://arkeofili.com/ "HTTP/1.1 200 OK"
+2026-09-08 21:22:51,894 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:22:52,091 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:22:52,098 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/327401 "HTTP/1.1 200 OK"
+2026-09-08 21:22:52,359 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=archaeology+Turkey+excavation&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:22:52,361 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:22:52,375 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/470298 "HTTP/1.1 200 OK"
+2026-09-08 21:22:52,654 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:22:52,656 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 21:22:52,885 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/466252 "HTTP/1.1 200 OK"
+2026-09-08 21:22:52,991 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/3642483 "HTTP/1.1 302 Found"
+2026-09-08 21:22:53,218 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/327399 "HTTP/1.1 200 OK"
+2026-09-08 21:22:53,266 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0066154600002842/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:22:53,442 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/excavations-at-catal-huyuk-1965-fourth-preliminary-report/11A99EACC5DA79113A8609C38973B689 "HTTP/1.1 302 Found"
+2026-09-08 21:22:53,599 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/29341 "HTTP/1.1 200 OK"
+2026-09-08 21:22:53,767 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/abs/excavations-at-catal-huyuk-1965-fourth-preliminary-report/11A99EACC5DA79113A8609C38973B689 "HTTP/1.1 200 OK"
+2026-09-08 21:22:54,495 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jaa.2006.08.002 "HTTP/1.1 302 Found"
+2026-09-08 21:22:55,033 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0278416506000481 "HTTP/1.1 200 "
+2026-09-08 21:22:55,682 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/3643048 "HTTP/1.1 302 Found"
+2026-09-08 21:22:55,934 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0066154600006578/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:22:56,104 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/palaeoecological-and-archaeological-evidence-for-human-occupance-in-southwest-turkey-the-beysehir-occupation-phase/C687D835015B9F3C5EBA1037DF2E16C8 "HTTP/1.1 302 Found"
+2026-09-08 21:22:56,420 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/abs/palaeoecological-and-archaeological-evidence-for-human-occupance-in-southwest-turkey-the-beysehir-occupation-phase/C687D835015B9F3C5EBA1037DF2E16C8 "HTTP/1.1 200 OK"
+2026-09-08 21:22:57,150 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/2042458215y.0000000004 "HTTP/1.1 302 Found"
+2026-09-08 21:22:57,288 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/2042458215Y.0000000004 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:22:57,949 [httpx] INFO: HTTP Request: GET https://doi.org/10.14311/gi.6.11 "HTTP/1.1 302 Found"
+2026-09-08 21:22:58,296 [httpx] INFO: HTTP Request: GET https://ojs.cvut.cz/ojs/index.php/gi/article/view/2636 "HTTP/1.1 302 Found"
+2026-09-08 21:22:58,843 [httpx] INFO: HTTP Request: GET https://ojs.cvut.cz/ojs/index.php/gi/article/view/gi.6.11 "HTTP/1.1 200 OK"
+2026-09-08 21:22:59,194 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0033822200033750 "HTTP/1.1 302 Found"
+2026-09-08 21:22:59,442 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0033822200033750/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:22:59,739 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/radiocarbon/article/rolling-out-revolution-using-radiocarbon-dating-in-archaeology/0CCCCE4FB7B0BEF52F552C1039C7855A "HTTP/1.1 200 OK"
+2026-09-08 21:23:00,321 [httpx] INFO: HTTP Request: GET https://doi.org/10.1126/science.aax1192 "HTTP/1.1 302 Found"
+2026-09-08 21:23:00,453 [httpx] INFO: HTTP Request: GET https://www.science.org/doi/10.1126/science.aax1192 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:23:00,808 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/gea.20133 "HTTP/1.1 302 Found"
+2026-09-08 21:23:00,947 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/gea.20133 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:23:01,637 [httpx] INFO: HTTP Request: GET https://doi.org/10.2143/ana.32.0.2012555 "HTTP/1.1 302 Found"
+2026-09-08 21:23:01,822 [httpx] INFO: HTTP Request: GET http://poj.peeters-leuven.be/content.php?url=article&id=2012555&journal_code=ANA "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:23:02,195 [httpx] INFO: HTTP Request: GET https://poj.peeters-leuven.be/content.php?url=article&id=2012555&journal_code=ANA "HTTP/1.1 200 OK"
+2026-09-08 21:23:02,562 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/009346906791071828 "HTTP/1.1 302 Found"
+2026-09-08 21:23:02,643 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/009346906791071828 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:23:02,781 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/009346906791071828 "HTTP/1.1 403 Forbidden"
+INFO:     192.168.1.111:50403 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50402 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50404 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50407 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50408 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50409 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50409 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50409 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50409 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50408 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50408 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     192.168.1.111:50417 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50415 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50416 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50420 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50421 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50422 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50427 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50426 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50428 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50428 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50427 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50426 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50428 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50428 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     192.168.1.111:50428 - "GET / HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50428 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50426 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50427 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50438 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50439 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50440 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50443 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50444 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50445 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50451 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "POST /api/pipeline/analyze HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50451 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50456 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50467 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50467 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50456 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50451 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50467 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50456 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50451 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50456 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50452 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50466 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50450 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50489 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50487 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50488 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50494 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50493 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50495 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50499 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50500 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50501 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50505 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50506 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50507 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50511 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50510 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50512 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50517 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50515 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50516 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50524 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50522 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50523 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50528 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50529 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50530 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50534 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50535 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50536 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50542 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50540 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50541 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50547 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50548 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50549 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50553 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50554 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50555 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50560 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50561 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50561 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50565 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50567 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50566 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50570 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50571 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50572 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50576 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50577 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50578 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50583 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50582 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50584 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50591 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50593 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50592 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50599 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50598 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50597 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50606 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50605 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50607 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50610 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50611 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50610 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50618 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50619 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50620 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50624 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50625 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50626 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50629 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50631 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50630 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50635 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50637 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50636 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50641 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50643 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50642 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50646 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50647 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50648 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50652 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50653 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50654 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:27:53,140 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Hittite+symbols%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:27:53,142 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:27:53,445 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:27:53,745 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:27:54,101 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:27:54,422 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:27:55,044 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:27:55,046 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:50694 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50695 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50696 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:28:51,209 [core.agent_base] INFO: [Antikac²Ajan²] 3 kaynak bulundu.
+2026-09-08 21:28:51,617 [httpx] INFO: HTTP Request: GET https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database "HTTP/1.1 200 OK"
+2026-09-08 21:28:51,695 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category%3ASarcophagi_in_Turkey&cmtype=file&cmlimit=15&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:28:51,697 [core.agent_base] INFO: [G÷rselAjan²] 15 kaynak bulundu.
+2026-09-08 21:28:51,835 [httpx] INFO: HTTP Request: GET https://opencontext.org/search/?q=excavation+Anatolia&rows=10&response=uri-meta "HTTP/1.1 200 OK"
+2026-09-08 21:28:51,837 [core.agent_base] INFO: [SahaAjan²] 0 kaynak bulundu.
+2026-09-08 21:28:52,008 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Adana_M%C3%BCze17.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,085 [httpx] INFO: HTTP Request: GET https://www.lostart.de/en/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,202 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,224 [core.agent_base] INFO: [ForumAjan²] 20 kaynak bulundu.
+2026-09-08 21:28:52,362 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,442 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:AfyonkarahisarMuseum_(76).JPG "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,446 [httpx] INFO: HTTP Request: GET https://archive.org/advancedsearch.php?q=%28Anadolu+define+i%C5%9Faretleri%29+AND+mediatype%3Amovies&fl%5B%5D=identifier%2Ctitle%2Cdescription&rows=10&output=json "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,448 [core.agent_base] INFO: [VideoAjan²] 0 kaynak bulundu.
+2026-09-08 21:28:52,724 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ortadogu/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:52,857 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:AfyonkarahisarMuseum_(79).JPG "HTTP/1.1 200 OK"
+2026-09-08 21:28:53,134 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kitap/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:53,281 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Antik_sarkofag_p%C3%A5_stranden_i_Faselis_1954_SLSA_1150_9570.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:53,462 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/asya/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:53,608 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/etkinlik/ "HTTP/1.1 404 Not Found"
+2026-09-08 21:28:53,754 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Bilal-iHabe%C5%9FMasdjid_(2).JPG "HTTP/1.1 200 OK"
+2026-09-08 21:28:53,932 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=hittite+artifact&hasImages=true "HTTP/1.1 200 OK"
+2026-09-08 21:28:53,933 [core.agent_base] INFO: [M³zeAjan²] 0 kaynak bulundu.
+2026-09-08 21:28:53,946 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/afrika/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:54,101 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/aktuel/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:54,260 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:54,420 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/sozluk/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:54,477 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:DSC04209_Istanbul_-_Fatih_Memhet_camii_-_T%C3%BCrbe_di_Maometto_II_-_Foto_G._Dall'Orto_26-5-2006.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:54,829 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Ephesus_-_rock_tomb_1.jpeg "HTTP/1.1 200 OK"
+2026-09-08 21:28:54,830 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/turkiye/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:55,024 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/avrupa/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:55,230 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Idebessos_-_Sarcophagi_with_shield_and_spear.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:55,462 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/amerika/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:55,639 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:K%C4%B1rklareliMuseum_(44).JPG "HTTP/1.1 200 OK"
+2026-09-08 21:28:55,878 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/biyografi/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:56,044 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/english-news/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:56,094 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Limyra_5161.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:56,220 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/galeriler/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:56,382 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 21:28:56,551 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/muzeler/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:56,891 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:57,025 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Lycian_sarcophagus_at_Xanthos.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:57,292 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kurumlar/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:57,384 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Lycian_sarcophagus_at_Xanthos02.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:57,717 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/dunya/ "HTTP/1.1 200 OK"
+2026-09-08 21:28:57,750 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 21:28:57,766 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Olympos_Sarkophag_des_Eudemos.JPG "HTTP/1.1 200 OK"
+2026-09-08 21:28:58,161 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Olympos_Schiff.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:28:58,541 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Ottoman_sarcophagus.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:29:03,814 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Anadolu+h%C3%B6y%C3%BCk+kaz%C4%B1&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:29:19,013 [core.agent_base] INFO: [AkademikAjan] 11 kaynak bulundu.
+2026-09-08 21:29:19,759 [httpx] INFO: HTTP Request: GET https://doi.org/10.32600/huefd.589229 "HTTP/1.1 302 Found"
+2026-09-08 21:29:19,848 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.32600/huefd.589229 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:20,118 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.32600/huefd.589229 "HTTP/1.1 302 Found"
+2026-09-08 21:29:20,209 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/huefd/article/589229 "HTTP/1.1 200 OK"
+2026-09-08 21:29:20,874 [httpx] INFO: HTTP Request: GET https://doi.org/10.51493/egearkeoloji.1027960 "HTTP/1.1 302 Found"
+2026-09-08 21:29:20,952 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.1027960 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:21,334 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.1027960 "HTTP/1.1 302 Found"
+2026-09-08 21:29:21,419 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/egearkeoloji/article/1027960 "HTTP/1.1 200 OK"
+2026-09-08 21:29:21,839 [httpx] INFO: HTTP Request: GET http://dx.doi.org/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:22,488 [httpx] INFO: HTTP Request: GET https://dx.doi.org/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 21:29:22,572 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:22,866 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 21:29:22,964 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/mjss/article/1272185 "HTTP/1.1 200 OK"
+2026-09-08 21:29:23,287 [httpx] INFO: HTTP Request: GET https://doi.org/10.26650/artsanat.2020.14.0016 "HTTP/1.1 302 Found"
+2026-09-08 21:29:23,396 [httpx] INFO: HTTP Request: GET https://iupress.istanbul.edu.tr/tr/journal/art-sanat/article/bitlis-kalesi-osmanli-donemi-lulelerinin-degerlendirilmesi-2018-yili-kazi-sezonu "HTTP/1.1 200 OK"
+2026-09-08 21:29:24,057 [httpx] INFO: HTTP Request: GET https://doi.org/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 21:29:24,138 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:24,443 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 21:29:24,538 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/mjss/article/1272185 "HTTP/1.1 200 OK"
+2026-09-08 21:29:25,200 [httpx] INFO: HTTP Request: GET https://doi.org/10.46586/metalla.v23.2017.i2.51-65 "HTTP/1.1 302 Found"
+2026-09-08 21:29:25,737 [httpx] INFO: HTTP Request: GET https://metalla.org/index.php/METALLA/article/view/9470 "HTTP/1.1 200 OK"
+2026-09-08 21:29:26,092 [httpx] INFO: HTTP Request: GET https://doi.org/10.22520/tubaar2020.27.006 "HTTP/1.1 302 Found"
+2026-09-08 21:29:26,366 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.22520/tubaar2020.27.006 "HTTP/1.1 302 Found"
+2026-09-08 21:29:26,454 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/tubaar/article/861063 "HTTP/1.1 200 OK"
+2026-09-08 21:29:26,867 [httpx] INFO: HTTP Request: GET https://doi.org/10.18069/firatsbed.865423 "HTTP/1.1 302 Found"
+2026-09-08 21:29:26,955 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.18069/firatsbed.865423 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:27,286 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.18069/firatsbed.865423 "HTTP/1.1 302 Found"
+2026-09-08 21:29:27,369 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/firatsbed/article/865423 "HTTP/1.1 200 OK"
+2026-09-08 21:29:28,062 [httpx] INFO: HTTP Request: GET https://doi.org/10.51493/egearkeoloji.849616 "HTTP/1.1 302 Found"
+2026-09-08 21:29:28,141 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.849616 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:28,491 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.849616 "HTTP/1.1 302 Found"
+2026-09-08 21:29:28,573 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/egearkeoloji/article/849616 "HTTP/1.1 200 OK"
+2026-09-08 21:29:29,225 [httpx] INFO: HTTP Request: GET https://doi.org/10.20875/makusobed.1642398 "HTTP/1.1 302 Found"
+2026-09-08 21:29:29,306 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.20875/makusobed.1642398 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:29:29,593 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.20875/makusobed.1642398 "HTTP/1.1 302 Found"
+2026-09-08 21:29:29,690 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/makusobed/article/1642398 "HTTP/1.1 200 OK"
+2026-09-08 21:29:30,390 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.47.6 "HTTP/1.1 302 Found"
+2026-09-08 21:29:31,183 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/47.6 "HTTP/1.1 200 OK"
+2026-09-08 21:29:31,279 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:50804 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50805 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50806 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50837 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50838 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50839 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50869 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50870 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50871 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50925 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50926 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50927 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:32:55,515 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22petroglyphs+Turkey%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:32:55,517 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:32:55,829 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:32:56,145 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:32:56,561 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:32:56,878 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:32:57,440 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:32:57,447 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:50968 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50969 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:50970 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:34:28,125 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/metaldetecting/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 21:34:28,296 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:34:28,296 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:51005 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51006 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51007 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:35:02,544 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=tumulus+burial+mound+Turkey&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:35:03,300 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=tumulus+burial+mound+Turkey&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:35:03,302 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:35:03,899 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s095977431800046x "HTTP/1.1 302 Found"
+2026-09-08 21:35:04,217 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S095977431800046X/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:04,412 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/multiple-burials-in-ancient-societies-theory-and-methods-from-egyptian-archaeology/C5CA036D552D727F1E9421FA9F989060 "HTTP/1.1 302 Found"
+2026-09-08 21:35:04,859 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/abs/multiple-burials-in-ancient-societies-theory-and-methods-from-egyptian-archaeology/C5CA036D552D727F1E9421FA9F989060 "HTTP/1.1 200 OK"
+2026-09-08 21:35:05,723 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/009346906791072061 "HTTP/1.1 302 Found"
+2026-09-08 21:35:05,812 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/009346906791072061 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:05,923 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/009346906791072061 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:35:06,296 [httpx] INFO: HTTP Request: GET https://doi.org/10.1163/22941932-90001269 "HTTP/1.1 302 Found"
+2026-09-08 21:35:06,419 [httpx] INFO: HTTP Request: GET https://brill.com/view/journals/iawa/13/2/article-p201_10.xml "HTTP/1.1 202 Accepted"
+2026-09-08 21:35:06,980 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/(sici)1099-0763(199703)4:1%3C15::aid-arp54%3E3.0.co;2-3 "HTTP/1.1 302 Found"
+2026-09-08 21:35:07,125 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-0763(199703)4:1%3C15::AID-ARP54%3E3.0.CO;2-3 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:35:07,739 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/135050399793138518 "HTTP/1.1 302 Found"
+2026-09-08 21:35:07,830 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/135050399793138518 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:07,961 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/135050399793138518 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:35:08,505 [httpx] INFO: HTTP Request: GET https://doi.org/10.2478/s13533-012-0153-4 "HTTP/1.1 302 Found"
+2026-09-08 21:35:08,814 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.2478/s13533-012-0153-4/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:09,210 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.2478/s13533-012-0153-4/html "HTTP/1.1 202 Accepted"
+2026-09-08 21:35:09,771 [httpx] INFO: HTTP Request: GET https://doi.org/10.1146/annurev.an.24.100195.002351 "HTTP/1.1 302 Found"
+2026-09-08 21:35:09,913 [httpx] INFO: HTTP Request: GET https://www.annualreviews.org/doi/10.1146/annurev.an.24.100195.002351 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:35:10,557 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0033822200001016 "HTTP/1.1 302 Found"
+2026-09-08 21:35:10,845 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0033822200001016/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:11,455 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/radiocarbon/article/groningen-radiocarbon-dates-x/BFF8319717C28D51FB2F88687B5E39B1 "HTTP/1.1 200 OK"
+2026-09-08 21:35:12,332 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0068245400008479 "HTTP/1.1 302 Found"
+2026-09-08 21:35:12,683 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0068245400008479/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:12,867 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/annual-of-the-british-school-at-athens/article/tholos-tomb-at-kirk-kilisse/39F1F110F42F06CA3C87AC4C0B928163 "HTTP/1.1 302 Found"
+2026-09-08 21:35:13,201 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/annual-of-the-british-school-at-athens/article/abs/tholos-tomb-at-kirk-kilisse/39F1F110F42F06CA3C87AC4C0B928163 "HTTP/1.1 200 OK"
+2026-09-08 21:35:13,862 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s00334-018-0689-4 "HTTP/1.1 302 Found"
+2026-09-08 21:35:14,140 [httpx] INFO: HTTP Request: GET http://link.springer.com/10.1007/s00334-018-0689-4 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:35:14,446 [httpx] INFO: HTTP Request: GET https://link.springer.com/article/10.1007/s00334-018-0689-4 "HTTP/1.1 200 OK"
+2026-09-08 21:35:14,457 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:51065 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51066 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51067 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:35:52,097 [core.agent_base] INFO: [Antikac²Ajan²] 3 kaynak bulundu.
+2026-09-08 21:35:52,500 [httpx] INFO: HTTP Request: GET https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database "HTTP/1.1 200 OK"
+2026-09-08 21:35:52,536 [httpx] INFO: HTTP Request: GET https://opencontext.org/search/?q=excavation+Eastern+Turkey&rows=10&response=uri-meta "HTTP/1.1 200 OK"
+2026-09-08 21:35:52,538 [core.agent_base] INFO: [SahaAjan²] 0 kaynak bulundu.
+2026-09-08 21:35:52,926 [httpx] INFO: HTTP Request: GET https://www.lostart.de/en/ "HTTP/1.1 200 OK"
+2026-09-08 21:35:54,376 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=byzantine+treasure&hasImages=true "HTTP/1.1 200 OK"
+2026-09-08 21:35:54,378 [core.agent_base] INFO: [M³zeAjan²] 8 kaynak bulundu.
+2026-09-08 21:35:54,454 [httpx] INFO: HTTP Request: GET https://archive.org/advancedsearch.php?q=%28Turkey+ancient+treasure+documentary%29+AND+mediatype%3Amovies&fl%5B%5D=identifier%2Ctitle%2Cdescription&rows=10&output=json "HTTP/1.1 200 OK"
+2026-09-08 21:35:54,456 [core.agent_base] INFO: [VideoAjan²] 4 kaynak bulundu.
+2026-09-08 21:35:54,880 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/472562 "HTTP/1.1 200 OK"
+2026-09-08 21:35:55,225 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/468346 "HTTP/1.1 200 OK"
+2026-09-08 21:35:55,549 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/465946 "HTTP/1.1 200 OK"
+2026-09-08 21:35:55,602 [httpx] INFO: HTTP Request: GET https://archive.org/details/pbsnovadocs "HTTP/1.1 200 OK"
+2026-09-08 21:35:55,936 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/436482 "HTTP/1.1 200 OK"
+2026-09-08 21:35:56,326 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/439327 "HTTP/1.1 200 OK"
+2026-09-08 21:35:57,249 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/436282 "HTTP/1.1 200 OK"
+2026-09-08 21:35:57,535 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/473485 "HTTP/1.1 200 OK"
+2026-09-08 21:35:57,607 [httpx] INFO: HTTP Request: GET https://archive.org/details/DW_20200922_083000_Close_up "HTTP/1.1 200 OK"
+2026-09-08 21:35:57,896 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/453638 "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:51091 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51092 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51092 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:35:59,082 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category%3AHittite_monuments&cmtype=file&cmlimit=15&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:35:59,085 [core.agent_base] INFO: [G÷rselAjan²] 0 kaynak bulundu.
+2026-09-08 21:35:59,468 [httpx] INFO: HTTP Request: GET https://archive.org/details/DW_20200923_073000_Close_up "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:51091 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51092 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51097 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:36:01,577 [httpx] INFO: HTTP Request: GET https://archive.org/details/DW_20200922_063000_Close_up "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:51103 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51102 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51104 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51108 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51109 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51110 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51115 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51114 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51116 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51120 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51121 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51122 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51125 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51126 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51127 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51130 - "POST /api/pipeline/analyze HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51130 - "GET /api/video/stream?t=1788892595876 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51134 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51133 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51132 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51141 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51142 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51143 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51147 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51146 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51148 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51153 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51152 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51154 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51160 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51159 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51158 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51164 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51165 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51166 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51169 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51171 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51170 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51175 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51176 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51177 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51182 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51184 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51183 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51188 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51189 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51187 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51193 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51195 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51194 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51201 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51199 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51200 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51211 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51209 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51210 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51218 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51216 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51217 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+2026-09-08 21:37:57,946 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22cave+markings+Anatolia%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:37:57,948 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:37:58,246 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:37:58,574 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:37:59,021 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:37:59,319 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:37:59,880 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:37:59,882 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:51228 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51229 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51230 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51234 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51233 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51235 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51239 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51241 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51240 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51244 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51245 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51246 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51250 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51252 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51251 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51257 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51256 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51258 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51262 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51263 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51264 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51268 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51270 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51269 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51276 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51277 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51275 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51280 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51281 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51282 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51286 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51287 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51288 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51292 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51293 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51294 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51400 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51399 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51398 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51405 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51407 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51406 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51411 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51412 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51412 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:39:28,676 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/archaeology/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 21:39:28,844 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:39:28,844 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:51416 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51417 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51418 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51422 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51423 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51424 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51428 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51428 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51429 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51432 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51433 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51434 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51438 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51439 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51440 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51445 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51446 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51447 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51451 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51452 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51452 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:40:15,649 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=rock+inscription+Anatolia&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:40:16,413 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=rock+inscription+Anatolia&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:40:16,414 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:40:16,888 [httpx] INFO: HTTP Request: GET https://doi.org/10.30958/ajhis.2-1-4 "HTTP/1.1 302 Found"
+2026-09-08 21:40:17,279 [httpx] INFO: HTTP Request: GET https://www.athensjournals.gr/history/2016-2-1-4-Yigit.pdf "HTTP/1.1 200 OK"
+2026-09-08 21:40:18,302 [httpx] INFO: HTTP Request: GET https://doi.org/10.1515/aofo-2021-0015 "HTTP/1.1 302 Found"
+2026-09-08 21:40:18,696 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.1515/aofo-2021-0015/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:40:18,999 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.1515/aofo-2021-0015/html "HTTP/1.1 202 Accepted"
+2026-09-08 21:40:19,476 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/isbn/9781628370775/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:40:19,509 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.15699/9781628370775/html?lang=en "HTTP/1.1 202 Accepted"
+2026-09-08 21:40:19,808 [httpx] INFO: HTTP Request: GET https://doi.org/10.1558/jmea.v27i2.135 "HTTP/1.1 302 Found"
+2026-09-08 21:40:20,750 [httpx] INFO: HTTP Request: GET https://journal.equinoxpub.com/JMA/article/view/937 "HTTP/1.1 200 OK"
+2026-09-08 21:40:21,296 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/arp.1572 "HTTP/1.1 302 Found"
+2026-09-08 21:40:21,435 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/arp.1572 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:40:21,733 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jaa.2017.12.003 "HTTP/1.1 302 Found"
+2026-09-08 21:40:22,282 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0278416517300879 "HTTP/1.1 200 "
+2026-09-08 21:40:22,636 [httpx] INFO: HTTP Request: GET https://doi.org/10.4314/ijma.v2i13.5 "HTTP/1.1 302 Found"
+2026-09-08 21:40:23,199 [httpx] INFO: HTTP Request: GET https://www.ajol.info/index.php/ijma/article/view/197350 "HTTP/1.1 200 OK"
+2026-09-08 21:40:23,615 [httpx] INFO: HTTP Request: GET https://doi.org/10.37095/gephyra.878855 "HTTP/1.1 302 Found"
+2026-09-08 21:40:23,695 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/en/doi/10.37095/gephyra.878855 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:40:23,992 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/doi/10.37095/gephyra.878855 "HTTP/1.1 302 Found"
+2026-09-08 21:40:24,085 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/pub/gephyra/article/878855 "HTTP/1.1 200 OK"
+2026-09-08 21:40:24,488 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/su14031496 "HTTP/1.1 302 Found"
+2026-09-08 21:40:24,663 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/2071-1050/14/3/1496 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:40:25,221 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/arts2040447 "HTTP/1.1 302 Found"
+2026-09-08 21:40:25,354 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/2076-0752/2/4/447 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:40:25,356 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:51493 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51494 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51495 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51529 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51530 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51531 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51667 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51668 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51668 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:43:00,374 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Anatolian+rock+art%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:43:00,376 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:43:00,698 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:43:01,010 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:43:01,387 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:43:01,669 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:43:02,245 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:43:02,247 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:51708 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51708 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51708 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:43:52,933 [core.agent_base] INFO: [Antikac²Ajan²] 3 kaynak bulundu.
+2026-09-08 21:43:53,230 [httpx] INFO: HTTP Request: GET https://opencontext.org/search/?q=excavation+Southeastern+Anatolia&rows=10&response=uri-meta "HTTP/1.1 200 OK"
+2026-09-08 21:43:53,232 [core.agent_base] INFO: [SahaAjan²] 0 kaynak bulundu.
+2026-09-08 21:43:53,307 [httpx] INFO: HTTP Request: GET https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database "HTTP/1.1 200 OK"
+2026-09-08 21:43:53,753 [httpx] INFO: HTTP Request: GET https://www.lostart.de/en/ "HTTP/1.1 200 OK"
+2026-09-08 21:43:58,477 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=roman+tomb+turkey&hasImages=true "HTTP/1.1 200 OK"
+2026-09-08 21:43:58,479 [core.agent_base] INFO: [M³zeAjan²] 8 kaynak bulundu.
+2026-09-08 21:43:58,829 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/254819 "HTTP/1.1 200 OK"
+2026-09-08 21:43:59,183 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/465921 "HTTP/1.1 200 OK"
+2026-09-08 21:43:59,196 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/Treasure/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 21:43:59,363 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:43:59,363 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 21:43:59,486 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/253825 "HTTP/1.1 200 OK"
+2026-09-08 21:43:59,549 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category%3AAncient_Greek_reliefs&cmtype=file&cmlimit=15&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:43:59,550 [core.agent_base] INFO: [G÷rselAjan²] 15 kaynak bulundu.
+2026-09-08 21:43:59,766 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/250711 "HTTP/1.1 200 OK"
+2026-09-08 21:43:59,817 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:2023-08-18._%D0%93%D0%BE%D1%80%D0%B3%D0%B8%D0%BF%D0%BF%D0%B8%D1%8F_DSC_4916.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:00,092 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/257610 "HTTP/1.1 200 OK"
+2026-09-08 21:44:00,232 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:2023-08-18._%D0%93%D0%BE%D1%80%D0%B3%D0%B8%D0%BF%D0%BF%D0%B8%D1%8F_DSC_4917.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:00,371 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/252549 "HTTP/1.1 200 OK"
+2026-09-08 21:44:00,624 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Achttien_fotoreproducties_van_een_publicatie_door_de_Arundel_Society_met_Griekse_ivoren_reli%C3%ABfs_en_een_reliekschrijn,_RP-F-2001-7-1470-10.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:00,663 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/245322 "HTTP/1.1 200 OK"
+2026-09-08 21:44:00,960 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/257619 "HTTP/1.1 200 OK"
+2026-09-08 21:44:01,031 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Antique_Marble_Relief_of_Pythagorion.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:01,421 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:At_the_Metropolitan_Museum_of_Art,_New_York_2017_51_-_Marble_grave_stele.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:01,835 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Athena_mit_Adoranten.JPG "HTTP/1.1 200 OK"
+2026-09-08 21:44:02,264 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:D329-cam%C3%A9e_grec,_t%C3%AAte_de_pallas_ath%C3%A9n%C3%A9.-L2-Ch8.png "HTTP/1.1 200 OK"
+2026-09-08 21:44:02,695 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Die_Schlacht_von_Gaugamela-Relief.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:03,057 [httpx] INFO: HTTP Request: GET https://archive.org/advancedsearch.php?q=%28hittite+excavation+documentary%29+AND+mediatype%3Amovies&fl%5B%5D=identifier%2Ctitle%2Cdescription&rows=10&output=json "HTTP/1.1 200 OK"
+2026-09-08 21:44:03,059 [core.agent_base] INFO: [VideoAjan²] 0 kaynak bulundu.
+2026-09-08 21:44:03,363 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:EB1911_Greek_Art_-_Odysseus_and_Suitors;_Hunting_of_Boar.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:03,719 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:EB1911_Greek_Art_-_Portion_of_frieze_of_mausoleum.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:04,098 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Frigia,_placca_con_cavaliere_e_grifone,_600-550_ac_ca.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:04,505 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Funerary_stele_(detail_2)._4th_century_B.C.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:04,914 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Greek_relief_of_hockeyplayers_500_bC.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:05,372 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Greek_relief_of_pentathlon_500_bC.jpg "HTTP/1.1 200 OK"
+2026-09-08 21:44:05,813 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/wiki/File:Greek_relief_of_sprinter_in_start_position_from_pentathlon_scene_500_BC_(cropped).jpg "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:51768 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51769 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51770 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:44:56,270 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=treasure+hunting+symbols+Turkey&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:44:57,204 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=treasure+hunting+symbols+Turkey&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:44:57,206 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:44:57,852 [httpx] INFO: HTTP Request: GET https://doi.org/10.2979/his.2010.22.2.68 "HTTP/1.1 302 Found"
+2026-09-08 21:44:58,523 [httpx] INFO: HTTP Request: GET https://muse.jhu.edu/article/395840 "HTTP/1.1 302 Found"
+2026-09-08 21:44:58,718 [httpx] INFO: HTTP Request: GET https://muse.jhu.edu/verify?url=%2Farticle%2F395840&r=9742019 "HTTP/1.1 200 OK"
+2026-09-08 21:44:59,395 [httpx] INFO: HTTP Request: GET https://doi.org/10.2298/gei0701171k "HTTP/1.1 302 Found"
+2026-09-08 21:45:01,404 [httpx] INFO: HTTP Request: GET https://doiserbia.nb.rs/Article.aspx?ID=0350-08610701171K "HTTP/1.1 200 OK"
+2026-09-08 21:45:01,714 [httpx] INFO: HTTP Request: GET https://doi.org/10.4000/emscat.3747 "HTTP/1.1 302 Found"
+2026-09-08 21:45:01,987 [httpx] INFO: HTTP Request: GET https://journals.openedition.org/emscat/3747 "HTTP/1.1 200 OK"
+2026-09-08 21:45:02,280 [httpx] INFO: HTTP Request: GET https://doi.org/10.5195/cinej.2012.51 "HTTP/1.1 302 Found"
+2026-09-08 21:45:02,971 [httpx] INFO: HTTP Request: GET http://cinej.pitt.edu/ojs/index.php/cinej/article/view/51 "HTTP/1.0 302 Moved Temporarily"
+2026-09-08 21:45:03,988 [httpx] INFO: HTTP Request: GET https://cinej.pitt.edu/ojs/index.php/cinej/article/view/51 "HTTP/1.1 200 OK"
+2026-09-08 21:45:05,091 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0020743823001253 "HTTP/1.1 302 Found"
+2026-09-08 21:45:05,522 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0020743823001253/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:45:06,933 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/from-atomic-spies-to-turkishamerican-relations-the-cold-war-in-turkish-childrens-magazines-in-the-1950s/32576B08C674C1C1C0F86A697E974019 "HTTP/1.1 200 OK"
+2026-09-08 21:45:07,902 [httpx] INFO: HTTP Request: GET http://rave.ohiolink.edu/etdc/view?acc_num=osu1290905453 "HTTP/1.0 302 Moved Temporarily"
+2026-09-08 21:45:08,476 [httpx] INFO: HTTP Request: GET https://rave.ohiolink.edu/etdc/view?acc_num=osu1290905453 "HTTP/1.1 302 Found"
+2026-09-08 21:45:09,866 [httpx] INFO: HTTP Request: GET https://etd.ohiolink.edu/acprod/odb_etd/etd/r/1501/10?clear=10&p10_accession_num=osu1290905453 "HTTP/1.1 200 OK"
+2026-09-08 21:45:10,303 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0959774300000986 "HTTP/1.1 302 Found"
+2026-09-08 21:45:10,644 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0959774300000986/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:45:11,098 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/in-search-of-the-neanderthals-solving-the-puzzle-of-human-origins/6D9FB30C6B869D1E239BE190DCF0EC6F "HTTP/1.1 302 Found"
+2026-09-08 21:45:11,765 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/abs/in-search-of-the-neanderthals-solving-the-puzzle-of-human-origins/6D9FB30C6B869D1E239BE190DCF0EC6F "HTTP/1.1 200 OK"
+2026-09-08 21:45:12,670 [httpx] INFO: HTTP Request: GET https://doi.org/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 21:45:12,976 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/doi/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 21:45:13,089 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/tam-metin-pdf/1016/eng "HTTP/1.1 200 OK"
+2026-09-08 21:45:13,737 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.43.21 "HTTP/1.1 302 Found"
+2026-09-08 21:45:14,514 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/43.21 "HTTP/1.1 200 OK"
+2026-09-08 21:45:15,158 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/007589109x12484491671130 "HTTP/1.1 302 Found"
+2026-09-08 21:45:15,296 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/007589109X12484491671130 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:45:15,300 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:51824 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51825 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51826 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51890 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51891 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51892 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51949 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51950 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:51951 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:47:59,863 [httpx] INFO: HTTP Request: GET https://www.arkeofili.com "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:48:00,722 [httpx] INFO: HTTP Request: GET https://arkeofili.com/ "HTTP/1.1 200 OK"
+2026-09-08 21:48:00,747 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:48:00,748 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 21:48:02,823 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Hittite+symbols%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:48:02,824 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:48:03,126 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:48:03,427 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:48:04,538 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:48:04,838 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:48:05,422 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:48:05,424 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52018 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52019 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52020 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:49:16,096 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Hittite+burial+ritual&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:49:16,846 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Hittite+burial+ritual&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:49:16,848 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:49:17,340 [httpx] INFO: HTTP Request: GET https://doi.org/10.5615/bullamerschoorie.379.0019 "HTTP/1.1 302 Found"
+2026-09-08 21:49:17,682 [httpx] INFO: HTTP Request: GET https://www.journals.uchicago.edu/doi/10.5615/bullamerschoorie.379.0019 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:49:18,242 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/4132179 "HTTP/1.1 302 Found"
+2026-09-08 21:49:18,515 [httpx] INFO: HTTP Request: GET https://www.jstor.org/stable/10.2307/4132179?origin=crossref "HTTP/1.1 200 OK"
+2026-09-08 21:49:18,823 [httpx] INFO: HTTP Request: GET https://doi.org/10.1558/jsa.17829 "HTTP/1.1 302 Found"
+2026-09-08 21:49:19,428 [httpx] INFO: HTTP Request: GET https://journal.equinoxpub.com/JSA/article/view/17829 "HTTP/1.1 200 OK"
+2026-09-08 21:49:20,250 [httpx] INFO: HTTP Request: GET https://doi.org/10.15184/aqy.2022.109 "HTTP/1.1 302 Found"
+2026-09-08 21:49:20,645 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0003598X22001090/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:49:20,943 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/antiquity/article/protohistoric-metalurn-cremation-burials-1400100-bc-a-paneuropean-phenomenon/CE15DDD2DDBB5163DB2AEA2E81E2A579 "HTTP/1.1 200 OK"
+2026-09-08 21:49:22,113 [httpx] INFO: HTTP Request: GET https://doi.org/10.1086/372056 "HTTP/1.1 302 Found"
+2026-09-08 21:49:22,256 [httpx] INFO: HTTP Request: GET https://www.journals.uchicago.edu/doi/10.1086/372056 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:49:22,556 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s10745-018-0019-6 "HTTP/1.1 302 Found"
+2026-09-08 21:49:22,826 [httpx] INFO: HTTP Request: GET http://link.springer.com/10.1007/s10745-018-0019-6 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:49:23,201 [httpx] INFO: HTTP Request: GET https://link.springer.com/article/10.1007/s10745-018-0019-6 "HTTP/1.1 200 OK"
+2026-09-08 21:49:23,848 [httpx] INFO: HTTP Request: GET https://doi.org/10.5325/jeasmedarcherstu.6.1-2.0001 "HTTP/1.1 302 Found"
+2026-09-08 21:49:24,195 [httpx] INFO: HTTP Request: GET https://scholarlypublishingcollective.org/jemahs/article/6/1-2/1/201508/Puppy-Sacrifice-and-Cynophagy-from-Early "HTTP/1.1 403 Forbidden"
+2026-09-08 21:49:24,748 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s10963-020-09142-4 "HTTP/1.1 302 Found"
+2026-09-08 21:49:25,083 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s10963-020-09142-4 "HTTP/1.1 200 OK"
+2026-09-08 21:49:25,739 [httpx] INFO: HTTP Request: GET https://doi.org/10.47589/adalya.837516 "HTTP/1.1 302 Found"
+2026-09-08 21:49:25,830 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/en/doi/10.47589/adalya.837516 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:49:26,087 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/doi/10.47589/adalya.837516 "HTTP/1.1 302 Found"
+2026-09-08 21:49:26,179 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/pub/adalya/article/837516 "HTTP/1.1 200 OK"
+2026-09-08 21:49:26,560 [httpx] INFO: HTTP Request: GET https://doi.org/10.7592/fejf2010.45.sergis "HTTP/1.1 302 Found"
+2026-09-08 21:49:26,945 [httpx] INFO: HTTP Request: GET http://www.folklore.ee/folklore/vol45/sergis.pdf "HTTP/1.1 302 Found"
+2026-09-08 21:49:27,532 [httpx] INFO: HTTP Request: GET https://www.folklore.ee/folklore/vol45/sergis.pdf "HTTP/1.1 200 OK"
+2026-09-08 21:49:28,301 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:52084 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52085 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52086 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52122 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52123 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52124 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:51:30,962 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 21:51:30,984 [core.agent_base] INFO: [ForumAjan²] 20 kaynak bulundu.
+2026-09-08 21:51:31,120 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:31,275 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ortadogu/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:31,443 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kitap/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:31,668 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/asya/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:31,875 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/etkinlik/ "HTTP/1.1 404 Not Found"
+2026-09-08 21:51:32,014 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/afrika/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:32,174 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/aktuel/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:32,325 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:32,795 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/sozluk/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:32,950 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/turkiye/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:33,112 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/avrupa/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:33,275 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/amerika/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:33,456 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/biyografi/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:33,797 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/english-news/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:33,957 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/galeriler/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:34,114 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 21:51:34,543 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/muzeler/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:34,701 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:34,855 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kurumlar/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:35,019 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/dunya/ "HTTP/1.1 200 OK"
+2026-09-08 21:51:35,050 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52184 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52185 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52186 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:52:35,911 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22petroglyphs+Turkey%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:52:35,913 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:52:36,195 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:52:36,492 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:52:36,786 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:52:37,081 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:52:37,610 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:52:37,612 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52229 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52229 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52230 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:52:53,763 [core.agent_base] INFO: [Antikac²Ajan²] 3 kaynak bulundu.
+2026-09-08 21:52:53,925 [httpx] INFO: HTTP Request: GET https://opencontext.org/search/?q=excavation+Cappadocia&rows=10&response=uri-meta "HTTP/1.1 200 OK"
+2026-09-08 21:52:53,927 [core.agent_base] INFO: [SahaAjan²] 0 kaynak bulundu.
+2026-09-08 21:52:54,111 [httpx] INFO: HTTP Request: GET https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database "HTTP/1.1 200 OK"
+2026-09-08 21:52:54,507 [httpx] INFO: HTTP Request: GET https://www.lostart.de/en/ "HTTP/1.1 200 OK"
+2026-09-08 21:52:58,891 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=prehistoric+cave+Turkey&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:52:59,750 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=prehistoric+cave+Turkey&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:52:59,752 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:53:00,061 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/nplants.2016.194 "HTTP/1.1 302 Found"
+2026-09-08 21:53:00,528 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/nplants2016194 "HTTP/1.1 303 See Other"
+2026-09-08 21:53:00,935 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnplants2016194 "HTTP/1.1 302 Found"
+2026-09-08 21:53:01,110 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnplants2016194&code=d698b5b8-7a35-44d7-a3fc-b38672f12fa1 "HTTP/1.1 302 Found"
+2026-09-08 21:53:01,476 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/nplants2016194 "HTTP/1.1 200 OK"
+2026-09-08 21:53:01,772 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=ancient+coin+anatolia&hasImages=true "HTTP/1.1 200 OK"
+2026-09-08 21:53:01,774 [core.agent_base] INFO: [M³zeAjan²] 8 kaynak bulundu.
+2026-09-08 21:53:02,085 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469754 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:02,167 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jhevol.2013.10.001 "HTTP/1.1 302 Found"
+2026-09-08 21:53:02,365 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469757 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:02,640 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469755 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:02,709 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0047248413002261 "HTTP/1.1 200 "
+2026-09-08 21:53:02,925 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469758 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:03,004 [httpx] INFO: HTTP Request: GET https://doi.org/10.1126/science.aba9572 "HTTP/1.1 302 Found"
+2026-09-08 21:53:03,202 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469760 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:03,468 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469751 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:03,706 [httpx] INFO: HTTP Request: GET https://www.science.org/doi/10.1126/science.aba9572 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:53:03,993 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469759 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:04,242 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/469752 "HTTP/1.1 404 Not Found"
+2026-09-08 21:53:04,281 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.36.2 "HTTP/1.1 302 Found"
+2026-09-08 21:53:04,815 [httpx] INFO: HTTP Request: GET https://archive.org/advancedsearch.php?q=%28T%C3%BCrkiye+kaya+mezarlar%C4%B1%29+AND+mediatype%3Amovies&fl%5B%5D=identifier%2Ctitle%2Cdescription&rows=10&output=json "HTTP/1.1 200 OK"
+2026-09-08 21:53:04,817 [core.agent_base] INFO: [VideoAjan²] 0 kaynak bulundu.
+2026-09-08 21:53:06,428 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category%3AUrartian_artifacts&cmtype=file&cmlimit=15&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:53:06,429 [core.agent_base] INFO: [G÷rselAjan²] 0 kaynak bulundu.
+2026-09-08 21:53:06,664 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/36.2 "HTTP/1.1 200 OK"
+2026-09-08 21:53:07,430 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s12520-021-01397-y "HTTP/1.1 302 Found"
+2026-09-08 21:53:07,835 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s12520-021-01397-y "HTTP/1.1 200 OK"
+2026-09-08 21:53:08,218 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/hdy.2016.48 "HTTP/1.1 302 Found"
+2026-09-08 21:53:08,560 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/hdy201648 "HTTP/1.1 303 See Other"
+2026-09-08 21:53:08,908 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fhdy201648 "HTTP/1.1 302 Found"
+2026-09-08 21:53:09,094 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fhdy201648&code=0696326a-4be1-4307-aa39-2105f0b02d5d "HTTP/1.1 302 Found"
+2026-09-08 21:53:09,474 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/hdy201648 "HTTP/1.1 200 OK"
+2026-09-08 21:53:10,225 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s41064-020-00091-3 "HTTP/1.1 302 Found"
+2026-09-08 21:53:10,547 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s41064-020-00091-3 "HTTP/1.1 200 OK"
+2026-09-08 21:53:11,109 [httpx] INFO: HTTP Request: GET https://doi.org/10.1371/journal.pone.0128661 "HTTP/1.1 302 Found"
+2026-09-08 21:53:11,434 [httpx] INFO: HTTP Request: GET https://dx.plos.org/10.1371/journal.pone.0128661 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:53:11,811 [httpx] INFO: HTTP Request: GET https://journals.plos.org/plosone/doi?id=10.1371/journal.pone.0128661 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:53:12,109 [httpx] INFO: HTTP Request: GET https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128661 "HTTP/1.1 200 OK"
+2026-09-08 21:53:12,913 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/s41586-020-2259-z "HTTP/1.1 302 Found"
+2026-09-08 21:53:13,323 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41586-020-2259-z "HTTP/1.1 303 See Other"
+2026-09-08 21:53:13,694 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2259-z "HTTP/1.1 302 Found"
+2026-09-08 21:53:13,859 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2259-z&code=c560b52b-f247-4d64-b7ec-36d7686e9987 "HTTP/1.1 302 Found"
+2026-09-08 21:53:14,343 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41586-020-2259-z "HTTP/1.1 200 OK"
+2026-09-08 21:53:14,953 [httpx] INFO: HTTP Request: GET https://doi.org/10.1111/j.1365-246x.1989.tb04453.x "HTTP/1.1 302 Found"
+2026-09-08 21:53:15,229 [httpx] INFO: HTTP Request: GET https://academic.oup.com/gji/article-lookup/doi/10.1111/j.1365-246X.1989.tb04453.x "HTTP/1.1 403 Forbidden"
+2026-09-08 21:53:15,232 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:52304 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52305 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52304 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52319 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52320 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52321 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52325 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52324 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52326 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52330 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52331 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52332 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52336 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52337 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52338 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:54:35,477 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/metaldetecting/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 21:54:35,637 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:54:35,637 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52344 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52346 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52345 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52351 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52350 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52352 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52357 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52356 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52358 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52361 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52362 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52363 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52370 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52371 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52370 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52376 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52377 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52378 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52382 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52383 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52382 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52387 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52389 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52388 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52394 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52395 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52394 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52398 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52398 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52399 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52403 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52404 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52405 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52409 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52411 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52410 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52417 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52416 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52418 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52422 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52422 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52423 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52428 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52429 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52430 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52430 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52429 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52428 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52438 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52437 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52439 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:56:15,872 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Byzantine+hidden+treasure&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:56:16,749 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Byzantine+hidden+treasure&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:56:16,750 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:56:17,060 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s12520-021-01321-4 "HTTP/1.1 302 Found"
+2026-09-08 21:56:17,435 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s12520-021-01321-4 "HTTP/1.1 200 OK"
+2026-09-08 21:56:17,930 [httpx] INFO: HTTP Request: GET https://orca.cardiff.ac.uk/id/eprint/73090/1/Hidden%20Treasures%20in%20Firgotten%20Archives_Chronika%205.pdf "HTTP/1.1 403 Forbidden"
+2026-09-08 21:56:18,219 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/s41573-023-00774-7 "HTTP/1.1 302 Found"
+2026-09-08 21:56:18,706 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41573-023-00774-7 "HTTP/1.1 303 See Other"
+INFO:     192.168.1.111:52452 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52453 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52452 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:56:19,134 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41573-023-00774-7 "HTTP/1.1 302 Found"
+2026-09-08 21:56:19,358 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41573-023-00774-7&code=eacb7bdb-7265-4e22-98c6-0db299fb7f41 "HTTP/1.1 302 Found"
+2026-09-08 21:56:19,755 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41573-023-00774-7 "HTTP/1.1 200 OK"
+2026-09-08 21:56:20,724 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/info12010010 "HTTP/1.1 302 Found"
+2026-09-08 21:56:20,867 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/2078-2489/12/1/10 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:56:21,436 [httpx] INFO: HTTP Request: GET https://biblio.ugent.be/publication/8514980 "HTTP/1.1 200 OK"
+2026-09-08 21:56:21,822 [httpx] INFO: HTTP Request: GET https://doi.org/10.31826/hug-2018-200105 "HTTP/1.1 302 Found"
+2026-09-08 21:56:22,303 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.31826/hug-2018-200105/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:56:22,410 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.31826/hug-2018-200105/html "HTTP/1.1 202 Accepted"
+2026-09-08 21:56:23,105 [httpx] INFO: HTTP Request: GET https://doi.org/10.31826/hug-2010-050106 "HTTP/1.1 302 Found"
+2026-09-08 21:56:23,385 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.31826/hug-2010-050106/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:56:23,487 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.31826/hug-2010-050106/html "HTTP/1.1 202 Accepted"
+2026-09-08 21:56:24,187 [httpx] INFO: HTTP Request: GET https://doi.org/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 21:56:24,512 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/doi/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 21:56:24,614 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/tam-metin-pdf/1016/eng "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:52469 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52469 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52470 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:56:25,833 [httpx] INFO: HTTP Request: GET https://doi.org/10.1093/aob/mcu106 "HTTP/1.1 302 Found"
+2026-09-08 21:56:25,953 [httpx] INFO: HTTP Request: GET https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcu106 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:56:26,495 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/molecules26247595 "HTTP/1.1 302 Found"
+2026-09-08 21:56:26,617 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/1420-3049/26/24/7595 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:56:26,619 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:52478 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52479 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52480 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52484 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52485 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52486 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:56:38,086 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22cave+markings+Anatolia%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 21:56:38,087 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 21:56:38,400 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 21:56:38,717 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 21:56:39,076 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 21:56:39,376 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 21:56:39,926 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 21:56:39,928 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52498 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52499 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52500 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52503 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52505 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52504 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52511 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52510 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52512 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52515 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52516 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52517 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:57:06,050 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/archaeology/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 21:57:06,212 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:57:06,212 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52522 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52524 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52523 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52528 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52529 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52529 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52537 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52538 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52539 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52543 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52545 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52544 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52549 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52549 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52550 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52554 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52554 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52555 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52558 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52558 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52559 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52565 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52565 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52565 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52571 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52571 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52572 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52575 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52576 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52577 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52602 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52603 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52603 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 21:58:57,286 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=archaeology+Turkey+excavation&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 21:58:58,057 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=archaeology+Turkey+excavation&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 21:58:58,062 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 21:58:58,395 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/3642483 "HTTP/1.1 302 Found"
+2026-09-08 21:58:58,686 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0066154600002842/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:58:58,918 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/excavations-at-catal-huyuk-1965-fourth-preliminary-report/11A99EACC5DA79113A8609C38973B689 "HTTP/1.1 302 Found"
+2026-09-08 21:58:59,465 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/abs/excavations-at-catal-huyuk-1965-fourth-preliminary-report/11A99EACC5DA79113A8609C38973B689 "HTTP/1.1 200 OK"
+2026-09-08 21:59:00,164 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jaa.2006.08.002 "HTTP/1.1 302 Found"
+2026-09-08 21:59:00,764 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0278416506000481 "HTTP/1.1 200 "
+2026-09-08 21:59:01,388 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/3643048 "HTTP/1.1 302 Found"
+2026-09-08 21:59:02,232 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0066154600006578/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:59:02,619 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/palaeoecological-and-archaeological-evidence-for-human-occupance-in-southwest-turkey-the-beysehir-occupation-phase/C687D835015B9F3C5EBA1037DF2E16C8 "HTTP/1.1 302 Found"
+2026-09-08 21:59:03,626 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/abs/palaeoecological-and-archaeological-evidence-for-human-occupance-in-southwest-turkey-the-beysehir-occupation-phase/C687D835015B9F3C5EBA1037DF2E16C8 "HTTP/1.1 200 OK"
+2026-09-08 21:59:04,479 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/2042458215y.0000000004 "HTTP/1.1 302 Found"
+2026-09-08 21:59:04,620 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/2042458215Y.0000000004 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:59:05,273 [httpx] INFO: HTTP Request: GET https://doi.org/10.14311/gi.6.11 "HTTP/1.1 302 Found"
+2026-09-08 21:59:05,854 [httpx] INFO: HTTP Request: GET https://ojs.cvut.cz/ojs/index.php/gi/article/view/2636 "HTTP/1.1 302 Found"
+2026-09-08 21:59:06,571 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/Treasure/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 21:59:06,741 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 21:59:06,741 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 21:59:06,772 [httpx] INFO: HTTP Request: GET https://ojs.cvut.cz/ojs/index.php/gi/article/view/gi.6.11 "HTTP/1.1 200 OK"
+2026-09-08 21:59:07,491 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0033822200033750 "HTTP/1.1 302 Found"
+2026-09-08 21:59:07,890 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0033822200033750/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:59:09,629 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/radiocarbon/article/rolling-out-revolution-using-radiocarbon-dating-in-archaeology/0CCCCE4FB7B0BEF52F552C1039C7855A "HTTP/1.1 200 OK"
+2026-09-08 21:59:10,484 [httpx] INFO: HTTP Request: GET https://doi.org/10.1126/science.aax1192 "HTTP/1.1 302 Found"
+2026-09-08 21:59:10,808 [httpx] INFO: HTTP Request: GET https://www.science.org/doi/10.1126/science.aax1192 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:59:11,344 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/gea.20133 "HTTP/1.1 302 Found"
+2026-09-08 21:59:11,468 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/gea.20133 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:59:11,834 [httpx] INFO: HTTP Request: GET https://doi.org/10.2143/ana.32.0.2012555 "HTTP/1.1 302 Found"
+2026-09-08 21:59:11,982 [httpx] INFO: HTTP Request: GET http://poj.peeters-leuven.be/content.php?url=article&id=2012555&journal_code=ANA "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:59:12,325 [httpx] INFO: HTTP Request: GET https://poj.peeters-leuven.be/content.php?url=article&id=2012555&journal_code=ANA "HTTP/1.1 200 OK"
+2026-09-08 21:59:12,689 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/009346906791071828 "HTTP/1.1 302 Found"
+2026-09-08 21:59:12,767 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/009346906791071828 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 21:59:12,889 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/009346906791071828 "HTTP/1.1 403 Forbidden"
+2026-09-08 21:59:12,892 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:52666 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52667 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52667 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:00:10,406 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Anatolian+rock+art%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:00:10,408 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:00:10,716 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:00:11,016 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:00:11,289 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:00:11,605 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:00:12,171 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:00:12,173 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:00:37,198 [httpx] INFO: HTTP Request: GET https://www.arkeofili.com "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:00:38,114 [httpx] INFO: HTTP Request: GET https://arkeofili.com/ "HTTP/1.1 200 OK"
+2026-09-08 22:00:38,152 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:00:38,152 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52714 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52715 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52716 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:01:14,026 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Anadolu+h%C3%B6y%C3%BCk+kaz%C4%B1&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:01:14,815 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Anadolu+h%C3%B6y%C3%BCk+kaz%C4%B1&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:01:14,817 [core.agent_base] INFO: [AkademikAjan] 11 kaynak bulundu.
+2026-09-08 22:01:15,283 [httpx] INFO: HTTP Request: GET https://doi.org/10.32600/huefd.589229 "HTTP/1.1 302 Found"
+2026-09-08 22:01:15,365 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.32600/huefd.589229 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:15,868 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.32600/huefd.589229 "HTTP/1.1 302 Found"
+2026-09-08 22:01:15,969 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/huefd/article/589229 "HTTP/1.1 200 OK"
+2026-09-08 22:01:16,657 [httpx] INFO: HTTP Request: GET https://doi.org/10.51493/egearkeoloji.1027960 "HTTP/1.1 302 Found"
+2026-09-08 22:01:16,734 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.1027960 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:17,164 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.1027960 "HTTP/1.1 302 Found"
+2026-09-08 22:01:17,255 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/egearkeoloji/article/1027960 "HTTP/1.1 200 OK"
+2026-09-08 22:01:17,500 [httpx] INFO: HTTP Request: GET http://dx.doi.org/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:18,087 [httpx] INFO: HTTP Request: GET https://dx.doi.org/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:01:18,165 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:18,623 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:01:18,709 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/mjss/article/1272185 "HTTP/1.1 200 OK"
+2026-09-08 22:01:19,115 [httpx] INFO: HTTP Request: GET https://doi.org/10.26650/artsanat.2020.14.0016 "HTTP/1.1 302 Found"
+2026-09-08 22:01:19,218 [httpx] INFO: HTTP Request: GET https://iupress.istanbul.edu.tr/tr/journal/art-sanat/article/bitlis-kalesi-osmanli-donemi-lulelerinin-degerlendirilmesi-2018-yili-kazi-sezonu "HTTP/1.1 200 OK"
+2026-09-08 22:01:19,514 [httpx] INFO: HTTP Request: GET https://doi.org/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:01:19,593 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:20,017 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:01:20,103 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/mjss/article/1272185 "HTTP/1.1 200 OK"
+2026-09-08 22:01:20,723 [httpx] INFO: HTTP Request: GET https://doi.org/10.46586/metalla.v23.2017.i2.51-65 "HTTP/1.1 302 Found"
+2026-09-08 22:01:21,141 [httpx] INFO: HTTP Request: GET https://metalla.org/index.php/METALLA/article/view/9470 "HTTP/1.1 200 OK"
+2026-09-08 22:01:21,805 [httpx] INFO: HTTP Request: GET https://doi.org/10.22520/tubaar2020.27.006 "HTTP/1.1 302 Found"
+2026-09-08 22:01:22,142 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.22520/tubaar2020.27.006 "HTTP/1.1 302 Found"
+2026-09-08 22:01:22,229 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/tubaar/article/861063 "HTTP/1.1 200 OK"
+2026-09-08 22:01:22,943 [httpx] INFO: HTTP Request: GET https://doi.org/10.18069/firatsbed.865423 "HTTP/1.1 302 Found"
+2026-09-08 22:01:23,022 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.18069/firatsbed.865423 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:23,425 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.18069/firatsbed.865423 "HTTP/1.1 302 Found"
+2026-09-08 22:01:23,518 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/firatsbed/article/865423 "HTTP/1.1 200 OK"
+2026-09-08 22:01:24,212 [httpx] INFO: HTTP Request: GET https://doi.org/10.51493/egearkeoloji.849616 "HTTP/1.1 302 Found"
+2026-09-08 22:01:24,291 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.849616 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:24,631 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.849616 "HTTP/1.1 302 Found"
+2026-09-08 22:01:24,738 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/egearkeoloji/article/849616 "HTTP/1.1 200 OK"
+2026-09-08 22:01:25,169 [httpx] INFO: HTTP Request: GET https://doi.org/10.20875/makusobed.1642398 "HTTP/1.1 302 Found"
+2026-09-08 22:01:25,259 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.20875/makusobed.1642398 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:01:25,699 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.20875/makusobed.1642398 "HTTP/1.1 302 Found"
+2026-09-08 22:01:25,791 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/makusobed/article/1642398 "HTTP/1.1 200 OK"
+2026-09-08 22:01:26,447 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.47.6 "HTTP/1.1 302 Found"
+2026-09-08 22:01:27,018 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/47.6 "HTTP/1.1 200 OK"
+2026-09-08 22:01:27,111 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+2026-09-08 22:01:38,354 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 22:01:38,376 [core.agent_base] INFO: [ForumAjan²] 20 kaynak bulundu.
+2026-09-08 22:01:38,518 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:38,669 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ortadogu/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:39,122 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kitap/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:39,291 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/asya/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:39,425 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/etkinlik/ "HTTP/1.1 404 Not Found"
+2026-09-08 22:01:39,573 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/afrika/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:40,059 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/aktuel/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:40,524 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:41,063 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/sozluk/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:41,518 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/turkiye/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:41,897 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/avrupa/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:42,065 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/amerika/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:42,241 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/biyografi/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:42,394 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/english-news/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:42,553 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/galeriler/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:42,710 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 22:01:43,195 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/muzeler/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:43,363 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:43,815 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kurumlar/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:44,252 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/dunya/ "HTTP/1.1 200 OK"
+2026-09-08 22:01:44,287 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52805 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52805 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52805 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:02:44,638 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/metaldetecting/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 22:02:44,800 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:02:44,800 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52841 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52842 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52843 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:02:54,518 [core.agent_base] INFO: [Antikac²Ajan²] 3 kaynak bulundu.
+2026-09-08 22:02:54,564 [httpx] INFO: HTTP Request: GET https://opencontext.org/search/?q=excavation+Lycia&rows=10&response=uri-meta "HTTP/1.1 200 OK"
+2026-09-08 22:02:54,565 [core.agent_base] INFO: [SahaAjan²] 0 kaynak bulundu.
+2026-09-08 22:02:54,861 [httpx] INFO: HTTP Request: GET https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database "HTTP/1.1 200 OK"
+2026-09-08 22:02:55,416 [httpx] INFO: HTTP Request: GET https://www.lostart.de/en/ "HTTP/1.1 200 OK"
+2026-09-08 22:02:57,970 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=tumulus+burial+mound+Turkey&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:02:58,883 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=tumulus+burial+mound+Turkey&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:02:58,885 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:02:59,518 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s095977431800046x "HTTP/1.1 302 Found"
+2026-09-08 22:02:59,788 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S095977431800046X/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:00,005 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/multiple-burials-in-ancient-societies-theory-and-methods-from-egyptian-archaeology/C5CA036D552D727F1E9421FA9F989060 "HTTP/1.1 302 Found"
+2026-09-08 22:03:00,396 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/abs/multiple-burials-in-ancient-societies-theory-and-methods-from-egyptian-archaeology/C5CA036D552D727F1E9421FA9F989060 "HTTP/1.1 200 OK"
+2026-09-08 22:03:01,223 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/009346906791072061 "HTTP/1.1 302 Found"
+2026-09-08 22:03:01,308 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/009346906791072061 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:01,427 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/009346906791072061 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:03:01,957 [httpx] INFO: HTTP Request: GET https://doi.org/10.1163/22941932-90001269 "HTTP/1.1 302 Found"
+2026-09-08 22:03:02,135 [httpx] INFO: HTTP Request: GET https://brill.com/view/journals/iawa/13/2/article-p201_10.xml "HTTP/1.1 202 Accepted"
+2026-09-08 22:03:02,431 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/(sici)1099-0763(199703)4:1%3C15::aid-arp54%3E3.0.co;2-3 "HTTP/1.1 302 Found"
+2026-09-08 22:03:02,556 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-0763(199703)4:1%3C15::AID-ARP54%3E3.0.CO;2-3 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:03:03,225 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/135050399793138518 "HTTP/1.1 302 Found"
+2026-09-08 22:03:03,294 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/135050399793138518 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:03,399 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/135050399793138518 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:03:03,691 [httpx] INFO: HTTP Request: GET https://doi.org/10.2478/s13533-012-0153-4 "HTTP/1.1 302 Found"
+2026-09-08 22:03:04,186 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.2478/s13533-012-0153-4/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:04,315 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.2478/s13533-012-0153-4/html "HTTP/1.1 202 Accepted"
+2026-09-08 22:03:04,610 [httpx] INFO: HTTP Request: GET https://doi.org/10.1146/annurev.an.24.100195.002351 "HTTP/1.1 302 Found"
+2026-09-08 22:03:04,716 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=relief+sculpture+turkey&hasImages=true "HTTP/1.1 200 OK"
+2026-09-08 22:03:04,762 [core.agent_base] INFO: [M³zeAjan²] 8 kaynak bulundu.
+2026-09-08 22:03:04,815 [httpx] INFO: HTTP Request: GET https://www.annualreviews.org/doi/10.1146/annurev.an.24.100195.002351 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:03:05,141 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0033822200001016 "HTTP/1.1 302 Found"
+2026-09-08 22:03:05,168 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/465966 "HTTP/1.1 200 OK"
+2026-09-08 22:03:05,392 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0033822200001016/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:05,542 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/464023 "HTTP/1.1 200 OK"
+2026-09-08 22:03:05,847 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/310453 "HTTP/1.1 200 OK"
+2026-09-08 22:03:05,993 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/radiocarbon/article/groningen-radiocarbon-dates-x/BFF8319717C28D51FB2F88687B5E39B1 "HTTP/1.1 200 OK"
+2026-09-08 22:03:06,265 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/307599 "HTTP/1.1 200 OK"
+2026-09-08 22:03:06,591 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/192770 "HTTP/1.1 200 OK"
+2026-09-08 22:03:06,878 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0068245400008479 "HTTP/1.1 302 Found"
+2026-09-08 22:03:06,937 [httpx] INFO: HTTP Request: GET https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category%3ABronze_Age_artifacts_from_Turkey&cmtype=file&cmlimit=15&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:03:06,939 [core.agent_base] INFO: [G÷rselAjan²] 0 kaynak bulundu.
+2026-09-08 22:03:06,942 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/471848 "HTTP/1.1 200 OK"
+2026-09-08 22:03:07,133 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0068245400008479/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:07,496 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/annual-of-the-british-school-at-athens/article/tholos-tomb-at-kirk-kilisse/39F1F110F42F06CA3C87AC4C0B928163 "HTTP/1.1 302 Found"
+2026-09-08 22:03:07,622 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/248899 "HTTP/1.1 200 OK"
+2026-09-08 22:03:07,930 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/annual-of-the-british-school-at-athens/article/abs/tholos-tomb-at-kirk-kilisse/39F1F110F42F06CA3C87AC4C0B928163 "HTTP/1.1 200 OK"
+2026-09-08 22:03:07,934 [httpx] INFO: HTTP Request: GET https://collectionapi.metmuseum.org/public/collection/v1/objects/547705 "HTTP/1.1 200 OK"
+2026-09-08 22:03:08,563 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s00334-018-0689-4 "HTTP/1.1 302 Found"
+2026-09-08 22:03:08,874 [httpx] INFO: HTTP Request: GET http://link.springer.com/10.1007/s00334-018-0689-4 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:03:09,276 [httpx] INFO: HTTP Request: GET https://link.springer.com/article/10.1007/s00334-018-0689-4 "HTTP/1.1 200 OK"
+2026-09-08 22:03:09,290 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+2026-09-08 22:03:12,294 [httpx] INFO: HTTP Request: GET https://archive.org/advancedsearch.php?q=%28archaeology+Turkey+underground%29+AND+mediatype%3Amovies&fl%5B%5D=identifier%2Ctitle%2Cdescription&rows=10&output=json "HTTP/1.1 200 OK"
+2026-09-08 22:03:12,515 [core.agent_base] INFO: [VideoAjan²] 4 kaynak bulundu.
+2026-09-08 22:03:12,643 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Hittite+symbols%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:03:12,644 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:03:12,946 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:03:13,238 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:03:13,619 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:03:13,903 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:03:14,445 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:03:14,447 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:03:22,603 [httpx] INFO: HTTP Request: GET https://archive.org/details/4-hours-of-ancient-mysteries-science-cant-explain-by-uncharted-mysteries "HTTP/1.1 200 OK"
+2026-09-08 22:03:32,793 [httpx] INFO: HTTP Request: GET https://archive.org/details/upenn-f16-0338_1967_47_Turkey "HTTP/1.1 200 OK"
+2026-09-08 22:03:43,166 [httpx] INFO: HTTP Request: GET https://archive.org/details/upenn-f16-0325_1967_34_Tunisia "HTTP/1.1 200 OK"
+2026-09-08 22:03:45,181 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/archaeology/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 22:03:45,420 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:03:45,421 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:52926 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52927 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52926 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:03:52,618 [httpx] INFO: HTTP Request: GET https://archive.org/details/youtube-ArrxIbjO9aA "HTTP/1.1 200 OK"
+2026-09-08 22:04:10,437 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=rock+inscription+Anatolia&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:04:10,820 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=rock+inscription+Anatolia&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:04:10,822 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:04:11,566 [httpx] INFO: HTTP Request: GET https://doi.org/10.30958/ajhis.2-1-4 "HTTP/1.1 302 Found"
+2026-09-08 22:04:11,992 [httpx] INFO: HTTP Request: GET https://www.athensjournals.gr/history/2016-2-1-4-Yigit.pdf "HTTP/1.1 200 OK"
+2026-09-08 22:04:13,311 [httpx] INFO: HTTP Request: GET https://doi.org/10.1515/aofo-2021-0015 "HTTP/1.1 302 Found"
+2026-09-08 22:04:13,866 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.1515/aofo-2021-0015/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:04:14,216 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.1515/aofo-2021-0015/html "HTTP/1.1 202 Accepted"
+2026-09-08 22:04:14,749 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/isbn/9781628370775/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:04:14,779 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.15699/9781628370775/html?lang=en "HTTP/1.1 202 Accepted"
+2026-09-08 22:04:15,321 [httpx] INFO: HTTP Request: GET https://doi.org/10.1558/jmea.v27i2.135 "HTTP/1.1 302 Found"
+2026-09-08 22:04:16,214 [httpx] INFO: HTTP Request: GET https://journal.equinoxpub.com/JMA/article/view/937 "HTTP/1.1 200 OK"
+2026-09-08 22:04:16,602 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/arp.1572 "HTTP/1.1 302 Found"
+2026-09-08 22:04:16,728 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/arp.1572 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:04:17,040 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jaa.2017.12.003 "HTTP/1.1 302 Found"
+2026-09-08 22:04:17,649 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0278416517300879 "HTTP/1.1 200 "
+2026-09-08 22:04:18,300 [httpx] INFO: HTTP Request: GET https://doi.org/10.4314/ijma.v2i13.5 "HTTP/1.1 302 Found"
+2026-09-08 22:04:18,810 [httpx] INFO: HTTP Request: GET https://www.ajol.info/index.php/ijma/article/view/197350 "HTTP/1.1 200 OK"
+2026-09-08 22:04:19,173 [httpx] INFO: HTTP Request: GET https://doi.org/10.37095/gephyra.878855 "HTTP/1.1 302 Found"
+2026-09-08 22:04:19,270 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/en/doi/10.37095/gephyra.878855 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:04:19,578 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/doi/10.37095/gephyra.878855 "HTTP/1.1 302 Found"
+2026-09-08 22:04:19,671 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/pub/gephyra/article/878855 "HTTP/1.1 200 OK"
+2026-09-08 22:04:20,253 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/su14031496 "HTTP/1.1 302 Found"
+2026-09-08 22:04:20,420 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/2071-1050/14/3/1496 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:04:20,996 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/arts2040447 "HTTP/1.1 302 Found"
+2026-09-08 22:04:21,108 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/2076-0752/2/4/447 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:04:21,110 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+2026-09-08 22:04:45,786 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/Treasure/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+INFO:     192.168.1.111:52991 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52991 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:52992 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:04:45,953 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:04:45,953 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:05:22,285 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=treasure+hunting+symbols+Turkey&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:05:23,133 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=treasure+hunting+symbols+Turkey&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:05:23,138 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:05:23,510 [httpx] INFO: HTTP Request: GET https://doi.org/10.2979/his.2010.22.2.68 "HTTP/1.1 302 Found"
+2026-09-08 22:05:24,172 [httpx] INFO: HTTP Request: GET https://muse.jhu.edu/article/395840 "HTTP/1.1 302 Found"
+2026-09-08 22:05:24,365 [httpx] INFO: HTTP Request: GET https://muse.jhu.edu/verify?url=%2Farticle%2F395840&r=9077685 "HTTP/1.1 200 OK"
+2026-09-08 22:05:24,743 [httpx] INFO: HTTP Request: GET https://doi.org/10.2298/gei0701171k "HTTP/1.1 302 Found"
+2026-09-08 22:05:26,623 [httpx] INFO: HTTP Request: GET https://doiserbia.nb.rs/Article.aspx?ID=0350-08610701171K "HTTP/1.1 200 OK"
+2026-09-08 22:05:27,267 [httpx] INFO: HTTP Request: GET https://doi.org/10.4000/emscat.3747 "HTTP/1.1 302 Found"
+2026-09-08 22:05:27,538 [httpx] INFO: HTTP Request: GET https://journals.openedition.org/emscat/3747 "HTTP/1.1 200 OK"
+2026-09-08 22:05:28,104 [httpx] INFO: HTTP Request: GET https://doi.org/10.5195/cinej.2012.51 "HTTP/1.1 302 Found"
+2026-09-08 22:05:28,808 [httpx] INFO: HTTP Request: GET http://cinej.pitt.edu/ojs/index.php/cinej/article/view/51 "HTTP/1.0 302 Moved Temporarily"
+2026-09-08 22:05:30,007 [httpx] INFO: HTTP Request: GET https://cinej.pitt.edu/ojs/index.php/cinej/article/view/51 "HTTP/1.1 200 OK"
+2026-09-08 22:05:31,117 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0020743823001253 "HTTP/1.1 302 Found"
+2026-09-08 22:05:31,396 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0020743823001253/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:05:31,701 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/from-atomic-spies-to-turkishamerican-relations-the-cold-war-in-turkish-childrens-magazines-in-the-1950s/32576B08C674C1C1C0F86A697E974019 "HTTP/1.1 200 OK"
+2026-09-08 22:05:32,574 [httpx] INFO: HTTP Request: GET http://rave.ohiolink.edu/etdc/view?acc_num=osu1290905453 "HTTP/1.0 302 Moved Temporarily"
+2026-09-08 22:05:33,119 [httpx] INFO: HTTP Request: GET https://rave.ohiolink.edu/etdc/view?acc_num=osu1290905453 "HTTP/1.1 302 Found"
+2026-09-08 22:05:34,235 [httpx] INFO: HTTP Request: GET https://etd.ohiolink.edu/acprod/odb_etd/etd/r/1501/10?clear=10&p10_accession_num=osu1290905453 "HTTP/1.1 200 OK"
+2026-09-08 22:05:35,000 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0959774300000986 "HTTP/1.1 302 Found"
+2026-09-08 22:05:35,260 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0959774300000986/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:05:35,458 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/in-search-of-the-neanderthals-solving-the-puzzle-of-human-origins/6D9FB30C6B869D1E239BE190DCF0EC6F "HTTP/1.1 302 Found"
+2026-09-08 22:05:35,775 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/abs/in-search-of-the-neanderthals-solving-the-puzzle-of-human-origins/6D9FB30C6B869D1E239BE190DCF0EC6F "HTTP/1.1 200 OK"
+2026-09-08 22:05:36,612 [httpx] INFO: HTTP Request: GET https://doi.org/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 22:05:36,917 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/doi/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 22:05:37,021 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/tam-metin-pdf/1016/eng "HTTP/1.1 200 OK"
+2026-09-08 22:05:37,925 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.43.21 "HTTP/1.1 302 Found"
+2026-09-08 22:05:38,655 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/43.21 "HTTP/1.1 200 OK"
+2026-09-08 22:05:39,160 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/007589109x12484491671130 "HTTP/1.1 302 Found"
+2026-09-08 22:05:39,273 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/007589109X12484491671130 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:05:39,275 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+2026-09-08 22:05:44,909 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22petroglyphs+Turkey%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:05:44,910 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:05:45,205 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:05:45,505 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:05:45,787 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+INFO:     192.168.1.111:53057 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53058 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53057 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:05:46,104 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:05:46,425 [httpx] INFO: HTTP Request: GET https://www.arkeofili.com "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:05:46,666 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:05:46,668 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:05:47,427 [httpx] INFO: HTTP Request: GET https://arkeofili.com/ "HTTP/1.1 200 OK"
+2026-09-08 22:05:47,452 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:05:47,453 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:06:40,345 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Hittite+burial+ritual&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:06:41,080 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Hittite+burial+ritual&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:06:41,081 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:06:41,762 [httpx] INFO: HTTP Request: GET https://doi.org/10.5615/bullamerschoorie.379.0019 "HTTP/1.1 302 Found"
+2026-09-08 22:06:41,923 [httpx] INFO: HTTP Request: GET https://www.journals.uchicago.edu/doi/10.5615/bullamerschoorie.379.0019 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:06:42,475 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/4132179 "HTTP/1.1 302 Found"
+2026-09-08 22:06:42,752 [httpx] INFO: HTTP Request: GET https://www.jstor.org/stable/10.2307/4132179?origin=crossref "HTTP/1.1 200 OK"
+2026-09-08 22:06:43,066 [httpx] INFO: HTTP Request: GET https://doi.org/10.1558/jsa.17829 "HTTP/1.1 302 Found"
+2026-09-08 22:06:43,894 [httpx] INFO: HTTP Request: GET https://journal.equinoxpub.com/JSA/article/view/17829 "HTTP/1.1 200 OK"
+2026-09-08 22:06:44,249 [httpx] INFO: HTTP Request: GET https://doi.org/10.15184/aqy.2022.109 "HTTP/1.1 302 Found"
+2026-09-08 22:06:44,597 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0003598X22001090/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:06:45,163 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/antiquity/article/protohistoric-metalurn-cremation-burials-1400100-bc-a-paneuropean-phenomenon/CE15DDD2DDBB5163DB2AEA2E81E2A579 "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:53059 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53139 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53139 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:06:47,173 [httpx] INFO: HTTP Request: GET https://doi.org/10.1086/372056 "HTTP/1.1 302 Found"
+2026-09-08 22:06:47,285 [httpx] INFO: HTTP Request: GET https://www.journals.uchicago.edu/doi/10.1086/372056 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:06:47,677 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 22:06:47,717 [core.agent_base] INFO: [ForumAjan²] 20 kaynak bulundu.
+2026-09-08 22:06:47,861 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:47,865 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s10745-018-0019-6 "HTTP/1.1 302 Found"
+2026-09-08 22:06:48,030 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ortadogu/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:48,138 [httpx] INFO: HTTP Request: GET http://link.springer.com/10.1007/s10745-018-0019-6 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:06:48,460 [httpx] INFO: HTTP Request: GET https://link.springer.com/article/10.1007/s10745-018-0019-6 "HTTP/1.1 200 OK"
+2026-09-08 22:06:48,477 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kitap/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:48,640 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/asya/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:48,772 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/etkinlik/ "HTTP/1.1 404 Not Found"
+2026-09-08 22:06:48,927 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/afrika/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:49,051 [httpx] INFO: HTTP Request: GET https://doi.org/10.5325/jeasmedarcherstu.6.1-2.0001 "HTTP/1.1 302 Found"
+2026-09-08 22:06:49,088 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/aktuel/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:49,207 [httpx] INFO: HTTP Request: GET https://scholarlypublishingcollective.org/jemahs/article/6/1-2/1/201508/Puppy-Sacrifice-and-Cynophagy-from-Early "HTTP/1.1 403 Forbidden"
+2026-09-08 22:06:49,248 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:49,686 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/sozluk/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:49,769 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s10963-020-09142-4 "HTTP/1.1 302 Found"
+2026-09-08 22:06:50,064 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/turkiye/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:50,096 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s10963-020-09142-4 "HTTP/1.1 200 OK"
+2026-09-08 22:06:50,226 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/avrupa/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:50,395 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/amerika/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:50,555 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/biyografi/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:50,744 [httpx] INFO: HTTP Request: GET https://doi.org/10.47589/adalya.837516 "HTTP/1.1 302 Found"
+2026-09-08 22:06:50,837 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/en/doi/10.47589/adalya.837516 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:06:50,952 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/english-news/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:51,139 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/doi/10.47589/adalya.837516 "HTTP/1.1 302 Found"
+2026-09-08 22:06:51,202 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/galeriler/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:51,234 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/en/pub/adalya/article/837516 "HTTP/1.1 200 OK"
+2026-09-08 22:06:51,384 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 22:06:51,820 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/muzeler/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:51,854 [httpx] INFO: HTTP Request: GET https://doi.org/10.7592/fejf2010.45.sergis "HTTP/1.1 302 Found"
+2026-09-08 22:06:52,008 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:52,233 [httpx] INFO: HTTP Request: GET http://www.folklore.ee/folklore/vol45/sergis.pdf "HTTP/1.1 302 Found"
+2026-09-08 22:06:52,419 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kurumlar/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:52,578 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/dunya/ "HTTP/1.1 200 OK"
+2026-09-08 22:06:52,598 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:06:52,848 [httpx] INFO: HTTP Request: GET https://www.folklore.ee/folklore/vol45/sergis.pdf "HTTP/1.1 200 OK"
+2026-09-08 22:06:53,602 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:53208 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53209 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53210 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:07:47,150 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22cave+markings+Anatolia%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:07:47,151 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:07:47,448 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:07:47,754 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:07:48,016 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:07:48,319 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:07:48,884 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:07:48,886 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:07:52,982 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/metaldetecting/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 22:07:53,159 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:07:53,159 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:07:54,416 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=prehistoric+cave+Turkey&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:07:55,240 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=prehistoric+cave+Turkey&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:07:55,241 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:07:55,823 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/nplants.2016.194 "HTTP/1.1 302 Found"
+2026-09-08 22:07:56,307 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/nplants2016194 "HTTP/1.1 303 See Other"
+2026-09-08 22:07:56,745 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnplants2016194 "HTTP/1.1 302 Found"
+2026-09-08 22:07:57,010 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnplants2016194&code=e0fb7c55-b24d-4dea-968f-baf4d3c4e68f "HTTP/1.1 302 Found"
+2026-09-08 22:07:57,463 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/nplants2016194 "HTTP/1.1 200 OK"
+2026-09-08 22:07:58,178 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jhevol.2013.10.001 "HTTP/1.1 302 Found"
+2026-09-08 22:07:58,734 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0047248413002261 "HTTP/1.1 200 "
+2026-09-08 22:07:59,105 [httpx] INFO: HTTP Request: GET https://doi.org/10.1126/science.aba9572 "HTTP/1.1 302 Found"
+2026-09-08 22:07:59,247 [httpx] INFO: HTTP Request: GET https://www.science.org/doi/10.1126/science.aba9572 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:07:59,952 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.36.2 "HTTP/1.1 302 Found"
+2026-09-08 22:08:02,372 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/36.2 "HTTP/1.1 200 OK"
+2026-09-08 22:08:03,184 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s12520-021-01397-y "HTTP/1.1 302 Found"
+2026-09-08 22:08:03,499 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s12520-021-01397-y "HTTP/1.1 200 OK"
+2026-09-08 22:08:04,046 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/hdy.2016.48 "HTTP/1.1 302 Found"
+2026-09-08 22:08:04,411 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/hdy201648 "HTTP/1.1 303 See Other"
+2026-09-08 22:08:04,780 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fhdy201648 "HTTP/1.1 302 Found"
+2026-09-08 22:08:04,993 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fhdy201648&code=fc8d1827-f3d1-489b-8909-f11c0d7de244 "HTTP/1.1 302 Found"
+2026-09-08 22:08:05,324 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/hdy201648 "HTTP/1.1 200 OK"
+2026-09-08 22:08:06,086 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s41064-020-00091-3 "HTTP/1.1 302 Found"
+2026-09-08 22:08:06,416 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s41064-020-00091-3 "HTTP/1.1 200 OK"
+2026-09-08 22:08:07,088 [httpx] INFO: HTTP Request: GET https://doi.org/10.1371/journal.pone.0128661 "HTTP/1.1 302 Found"
+2026-09-08 22:08:07,459 [httpx] INFO: HTTP Request: GET https://dx.plos.org/10.1371/journal.pone.0128661 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:08:08,018 [httpx] INFO: HTTP Request: GET https://journals.plos.org/plosone/doi?id=10.1371/journal.pone.0128661 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:08:08,586 [httpx] INFO: HTTP Request: GET https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128661 "HTTP/1.1 200 OK"
+2026-09-08 22:08:09,369 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/s41586-020-2259-z "HTTP/1.1 302 Found"
+2026-09-08 22:08:09,768 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41586-020-2259-z "HTTP/1.1 303 See Other"
+2026-09-08 22:08:10,133 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2259-z "HTTP/1.1 302 Found"
+2026-09-08 22:08:10,329 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41586-020-2259-z&code=6c885b20-d07c-41bf-9132-5f1264ea7b27 "HTTP/1.1 302 Found"
+2026-09-08 22:08:10,834 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41586-020-2259-z "HTTP/1.1 200 OK"
+2026-09-08 22:08:11,722 [httpx] INFO: HTTP Request: GET https://doi.org/10.1111/j.1365-246x.1989.tb04453.x "HTTP/1.1 302 Found"
+2026-09-08 22:08:11,855 [httpx] INFO: HTTP Request: GET https://academic.oup.com/gji/article-lookup/doi/10.1111/j.1365-246X.1989.tb04453.x "HTTP/1.1 403 Forbidden"
+2026-09-08 22:08:11,857 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:53373 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53374 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53375 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:08:53,521 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/archaeology/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 22:08:53,710 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:08:53,710 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:09:12,861 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Byzantine+hidden+treasure&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:09:13,243 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Byzantine+hidden+treasure&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:09:13,250 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:09:13,809 [httpx] INFO: HTTP Request: GET https://doi.org/10.1007/s12520-021-01321-4 "HTTP/1.1 302 Found"
+2026-09-08 22:09:14,138 [httpx] INFO: HTTP Request: GET https://link.springer.com/10.1007/s12520-021-01321-4 "HTTP/1.1 200 OK"
+2026-09-08 22:09:15,654 [httpx] INFO: HTTP Request: GET https://orca.cardiff.ac.uk/id/eprint/73090/1/Hidden%20Treasures%20in%20Firgotten%20Archives_Chronika%205.pdf "HTTP/1.1 403 Forbidden"
+2026-09-08 22:09:16,212 [httpx] INFO: HTTP Request: GET https://doi.org/10.1038/s41573-023-00774-7 "HTTP/1.1 302 Found"
+2026-09-08 22:09:16,626 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41573-023-00774-7 "HTTP/1.1 303 See Other"
+2026-09-08 22:09:17,060 [httpx] INFO: HTTP Request: GET https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41573-023-00774-7 "HTTP/1.1 302 Found"
+2026-09-08 22:09:17,231 [httpx] INFO: HTTP Request: GET https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41573-023-00774-7&code=223c2fc1-b142-4e2e-9c32-9da498831b5f "HTTP/1.1 302 Found"
+2026-09-08 22:09:17,682 [httpx] INFO: HTTP Request: GET https://www.nature.com/articles/s41573-023-00774-7 "HTTP/1.1 200 OK"
+2026-09-08 22:09:18,574 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/info12010010 "HTTP/1.1 302 Found"
+2026-09-08 22:09:18,711 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/2078-2489/12/1/10 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:09:19,315 [httpx] INFO: HTTP Request: GET https://biblio.ugent.be/publication/8514980 "HTTP/1.1 200 OK"
+2026-09-08 22:09:19,383 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Anatolian+rock+art%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:09:19,386 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:09:19,684 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:09:19,722 [httpx] INFO: HTTP Request: GET https://doi.org/10.31826/hug-2018-200105 "HTTP/1.1 302 Found"
+2026-09-08 22:09:19,986 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:09:20,235 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.31826/hug-2018-200105/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:09:20,333 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:09:20,346 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.31826/hug-2018-200105/html "HTTP/1.1 202 Accepted"
+2026-09-08 22:09:20,635 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:09:20,738 [httpx] INFO: HTTP Request: GET https://doi.org/10.31826/hug-2010-050106 "HTTP/1.1 302 Found"
+2026-09-08 22:09:21,153 [httpx] INFO: HTTP Request: GET https://www.degruyter.com/document/doi/10.31826/hug-2010-050106/html "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:09:21,209 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:09:21,211 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:09:21,269 [httpx] INFO: HTTP Request: GET https://www.degruyterbrill.com/document/doi/10.31826/hug-2010-050106/html "HTTP/1.1 202 Accepted"
+2026-09-08 22:09:21,982 [httpx] INFO: HTTP Request: GET https://doi.org/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 22:09:22,252 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/doi/10.32704/erdem.1985.1.097 "HTTP/1.1 302 Found"
+2026-09-08 22:09:22,381 [httpx] INFO: HTTP Request: GET https://erdem.gov.tr/tam-metin-pdf/1016/eng "HTTP/1.1 200 OK"
+2026-09-08 22:09:23,450 [httpx] INFO: HTTP Request: GET https://doi.org/10.1093/aob/mcu106 "HTTP/1.1 302 Found"
+2026-09-08 22:09:23,731 [httpx] INFO: HTTP Request: GET https://academic.oup.com/aob/article-lookup/doi/10.1093/aob/mcu106 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:09:24,298 [httpx] INFO: HTTP Request: GET https://doi.org/10.3390/molecules26247595 "HTTP/1.1 302 Found"
+2026-09-08 22:09:24,421 [httpx] INFO: HTTP Request: GET https://www.mdpi.com/1420-3049/26/24/7595 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:09:24,423 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:53434 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53435 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53436 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:09:54,088 [httpx] INFO: HTTP Request: GET https://www.reddit.com/r/Treasure/new.json?limit=25&t=week "HTTP/1.1 403 Blocked"
+2026-09-08 22:09:54,252 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:09:54,252 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:10:21,619 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22Hittite+symbols%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:10:21,620 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:10:21,918 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:10:22,217 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:10:22,497 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:10:22,807 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:10:23,366 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:10:23,368 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:10:25,453 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=archaeology+Turkey+excavation&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:10:26,219 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=archaeology+Turkey+excavation&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:10:26,221 [core.agent_base] INFO: [AkademikAjan] 10 kaynak bulundu.
+2026-09-08 22:10:26,615 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/3642483 "HTTP/1.1 302 Found"
+2026-09-08 22:10:26,869 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0066154600002842/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:10:27,069 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/excavations-at-catal-huyuk-1965-fourth-preliminary-report/11A99EACC5DA79113A8609C38973B689 "HTTP/1.1 302 Found"
+2026-09-08 22:10:27,353 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/abs/excavations-at-catal-huyuk-1965-fourth-preliminary-report/11A99EACC5DA79113A8609C38973B689 "HTTP/1.1 200 OK"
+2026-09-08 22:10:27,947 [httpx] INFO: HTTP Request: GET https://doi.org/10.1016/j.jaa.2006.08.002 "HTTP/1.1 302 Found"
+2026-09-08 22:10:28,591 [httpx] INFO: HTTP Request: GET https://linkinghub.elsevier.com/retrieve/pii/S0278416506000481 "HTTP/1.1 200 "
+2026-09-08 22:10:29,154 [httpx] INFO: HTTP Request: GET https://doi.org/10.2307/3643048 "HTTP/1.1 302 Found"
+2026-09-08 22:10:29,523 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0066154600006578/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:10:29,762 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/palaeoecological-and-archaeological-evidence-for-human-occupance-in-southwest-turkey-the-beysehir-occupation-phase/C687D835015B9F3C5EBA1037DF2E16C8 "HTTP/1.1 302 Found"
+2026-09-08 22:10:30,310 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/anatolian-studies/article/abs/palaeoecological-and-archaeological-evidence-for-human-occupance-in-southwest-turkey-the-beysehir-occupation-phase/C687D835015B9F3C5EBA1037DF2E16C8 "HTTP/1.1 200 OK"
+2026-09-08 22:10:30,871 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/2042458215y.0000000004 "HTTP/1.1 302 Found"
+2026-09-08 22:10:31,004 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/2042458215Y.0000000004 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:10:31,617 [httpx] INFO: HTTP Request: GET https://doi.org/10.14311/gi.6.11 "HTTP/1.1 302 Found"
+2026-09-08 22:10:32,002 [httpx] INFO: HTTP Request: GET https://ojs.cvut.cz/ojs/index.php/gi/article/view/2636 "HTTP/1.1 302 Found"
+2026-09-08 22:10:32,487 [httpx] INFO: HTTP Request: GET https://ojs.cvut.cz/ojs/index.php/gi/article/view/gi.6.11 "HTTP/1.1 200 OK"
+2026-09-08 22:10:33,874 [httpx] INFO: HTTP Request: GET https://doi.org/10.1017/s0033822200033750 "HTTP/1.1 302 Found"
+2026-09-08 22:10:34,191 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/product/identifier/S0033822200033750/type/journal_article "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:10:34,468 [httpx] INFO: HTTP Request: GET https://www.cambridge.org/core/journals/radiocarbon/article/rolling-out-revolution-using-radiocarbon-dating-in-archaeology/0CCCCE4FB7B0BEF52F552C1039C7855A "HTTP/1.1 200 OK"
+2026-09-08 22:10:35,373 [httpx] INFO: HTTP Request: GET https://doi.org/10.1126/science.aax1192 "HTTP/1.1 302 Found"
+2026-09-08 22:10:35,676 [httpx] INFO: HTTP Request: GET https://www.science.org/doi/10.1126/science.aax1192 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:10:36,240 [httpx] INFO: HTTP Request: GET https://doi.org/10.1002/gea.20133 "HTTP/1.1 302 Found"
+2026-09-08 22:10:36,374 [httpx] INFO: HTTP Request: GET https://onlinelibrary.wiley.com/doi/10.1002/gea.20133 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:10:36,696 [httpx] INFO: HTTP Request: GET https://doi.org/10.2143/ana.32.0.2012555 "HTTP/1.1 302 Found"
+2026-09-08 22:10:36,993 [httpx] INFO: HTTP Request: GET http://poj.peeters-leuven.be/content.php?url=article&id=2012555&journal_code=ANA "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:10:37,353 [httpx] INFO: HTTP Request: GET https://poj.peeters-leuven.be/content.php?url=article&id=2012555&journal_code=ANA "HTTP/1.1 200 OK"
+2026-09-08 22:10:37,911 [httpx] INFO: HTTP Request: GET https://doi.org/10.1179/009346906791071828 "HTTP/1.1 302 Found"
+2026-09-08 22:10:37,981 [httpx] INFO: HTTP Request: GET http://www.tandfonline.com/doi/full/10.1179/009346906791071828 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:10:38,099 [httpx] INFO: HTTP Request: GET https://www.tandfonline.com/doi/full/10.1179/009346906791071828 "HTTP/1.1 403 Forbidden"
+2026-09-08 22:10:38,101 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+INFO:     192.168.1.111:53599 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53599 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53600 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:10:54,735 [httpx] INFO: HTTP Request: GET https://www.arkeofili.com "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:10:55,697 [httpx] INFO: HTTP Request: GET https://arkeofili.com/ "HTTP/1.1 200 OK"
+2026-09-08 22:10:55,723 [core.agent_base] INFO: [ForumAjan²] 0 kaynak bulundu.
+2026-09-08 22:10:55,723 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:11:23,794 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22petroglyphs+Turkey%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:11:23,795 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:11:24,076 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:11:24,363 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:11:24,643 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:11:24,920 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:11:25,481 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:11:25,483 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:11:38,934 [httpx] INFO: HTTP Request: GET https://api.openalex.org/works?search=Anadolu+h%C3%B6y%C3%BCk+kaz%C4%B1&filter=type%3Aarticle&per-page=10&select=id%2Cdoi%2Ctitle%2Copen_access%2Cprimary_location "HTTP/1.1 200 OK"
+2026-09-08 22:11:39,770 [httpx] INFO: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Anadolu+h%C3%B6y%C3%BCk+kaz%C4%B1&limit=8&fields=url%2CexternalIds "HTTP/1.1 429 "
+2026-09-08 22:11:39,771 [core.agent_base] INFO: [AkademikAjan] 11 kaynak bulundu.
+2026-09-08 22:11:40,491 [httpx] INFO: HTTP Request: GET https://doi.org/10.32600/huefd.589229 "HTTP/1.1 302 Found"
+2026-09-08 22:11:40,573 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.32600/huefd.589229 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:40,867 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.32600/huefd.589229 "HTTP/1.1 302 Found"
+2026-09-08 22:11:40,957 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/huefd/article/589229 "HTTP/1.1 200 OK"
+2026-09-08 22:11:41,372 [httpx] INFO: HTTP Request: GET https://doi.org/10.51493/egearkeoloji.1027960 "HTTP/1.1 302 Found"
+2026-09-08 22:11:41,453 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.1027960 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:41,775 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.1027960 "HTTP/1.1 302 Found"
+2026-09-08 22:11:41,862 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/egearkeoloji/article/1027960 "HTTP/1.1 200 OK"
+2026-09-08 22:11:42,241 [httpx] INFO: HTTP Request: GET http://dx.doi.org/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:42,945 [httpx] INFO: HTTP Request: GET https://dx.doi.org/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:11:43,030 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:43,299 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:11:43,404 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/mjss/article/1272185 "HTTP/1.1 200 OK"
+2026-09-08 22:11:44,121 [httpx] INFO: HTTP Request: GET https://doi.org/10.26650/artsanat.2020.14.0016 "HTTP/1.1 302 Found"
+2026-09-08 22:11:44,264 [httpx] INFO: HTTP Request: GET https://iupress.istanbul.edu.tr/tr/journal/art-sanat/article/bitlis-kalesi-osmanli-donemi-lulelerinin-degerlendirilmesi-2018-yili-kazi-sezonu "HTTP/1.1 200 OK"
+2026-09-08 22:11:44,600 [httpx] INFO: HTTP Request: GET https://doi.org/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:11:44,685 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:45,052 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.33206/mjss.1272185 "HTTP/1.1 302 Found"
+2026-09-08 22:11:45,131 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/mjss/article/1272185 "HTTP/1.1 200 OK"
+INFO:     192.168.1.111:53658 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53659 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53660 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
+2026-09-08 22:11:45,878 [httpx] INFO: HTTP Request: GET https://doi.org/10.46586/metalla.v23.2017.i2.51-65 "HTTP/1.1 302 Found"
+2026-09-08 22:11:46,355 [httpx] INFO: HTTP Request: GET https://metalla.org/index.php/METALLA/article/view/9470 "HTTP/1.1 200 OK"
+2026-09-08 22:11:47,100 [httpx] INFO: HTTP Request: GET https://doi.org/10.22520/tubaar2020.27.006 "HTTP/1.1 302 Found"
+2026-09-08 22:11:47,462 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.22520/tubaar2020.27.006 "HTTP/1.1 302 Found"
+2026-09-08 22:11:47,563 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/tubaar/article/861063 "HTTP/1.1 200 OK"
+2026-09-08 22:11:48,060 [httpx] INFO: HTTP Request: GET https://doi.org/10.18069/firatsbed.865423 "HTTP/1.1 302 Found"
+2026-09-08 22:11:48,140 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.18069/firatsbed.865423 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:48,452 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.18069/firatsbed.865423 "HTTP/1.1 302 Found"
+2026-09-08 22:11:48,536 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/firatsbed/article/865423 "HTTP/1.1 200 OK"
+2026-09-08 22:11:49,239 [httpx] INFO: HTTP Request: GET https://doi.org/10.51493/egearkeoloji.849616 "HTTP/1.1 302 Found"
+2026-09-08 22:11:49,319 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.849616 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:49,588 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.51493/egearkeoloji.849616 "HTTP/1.1 302 Found"
+2026-09-08 22:11:49,671 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/egearkeoloji/article/849616 "HTTP/1.1 200 OK"
+2026-09-08 22:11:50,402 [httpx] INFO: HTTP Request: GET https://doi.org/10.20875/makusobed.1642398 "HTTP/1.1 302 Found"
+2026-09-08 22:11:50,489 [httpx] INFO: HTTP Request: GET http://dergipark.org.tr/tr/doi/10.20875/makusobed.1642398 "HTTP/1.1 301 Moved Permanently"
+2026-09-08 22:11:50,783 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/doi/10.20875/makusobed.1642398 "HTTP/1.1 302 Found"
+2026-09-08 22:11:50,873 [httpx] INFO: HTTP Request: GET https://dergipark.org.tr/tr/pub/makusobed/article/1642398 "HTTP/1.1 200 OK"
+2026-09-08 22:11:51,179 [httpx] INFO: HTTP Request: GET https://doi.org/10.4312/dp.47.6 "HTTP/1.1 302 Found"
+2026-09-08 22:11:51,811 [httpx] INFO: HTTP Request: GET https://journals.uni-lj.si/DocumentaPraehistorica/article/view/47.6 "HTTP/1.1 200 OK"
+2026-09-08 22:11:51,910 [core.agent_base] INFO: [AkademikAjan] Í­renildi: 2 yeni g³venilir domain
+2026-09-08 22:11:55,948 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 22:11:55,969 [core.agent_base] INFO: [ForumAjan²] 20 kaynak bulundu.
+2026-09-08 22:11:56,124 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:56,297 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ortadogu/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:56,726 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kitap/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:56,888 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/asya/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:57,036 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/etkinlik/ "HTTP/1.1 404 Not Found"
+2026-09-08 22:11:57,430 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/afrika/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:57,598 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/aktuel/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:57,762 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:57,924 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/sozluk/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:58,250 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/turkiye/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:58,413 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/avrupa/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:58,601 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/amerika/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:58,747 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/biyografi/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:58,898 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/english-news/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:59,062 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/galeriler/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:59,227 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com "HTTP/1.1 200 OK"
+2026-09-08 22:11:59,666 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/muzeler/ "HTTP/1.1 200 OK"
+2026-09-08 22:11:59,827 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/arkeoloji/ "HTTP/1.1 200 OK"
+2026-09-08 22:12:00,239 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/kutuphane/kurumlar/ "HTTP/1.1 200 OK"
+2026-09-08 22:12:00,415 [httpx] INFO: HTTP Request: GET https://www.arkeolojikhaber.com/restorasyon/dunya/ "HTTP/1.1 200 OK"
+2026-09-08 22:12:00,434 [core.agent_base] INFO: [ForumAjan²] Í­renildi: 1 yeni g³venilir domain
+2026-09-08 22:12:25,987 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=%22cave+markings+Anatolia%22+-music+-genre+-band+-song+-album+-guitarist&srlimit=8&format=json "HTTP/1.1 200 OK"
+2026-09-08 22:12:25,990 [core.agent_base] INFO: [SembolAjan²] 5 kaynak bulundu.
+2026-09-08 22:12:26,297 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Rock_art_in_Turkey "HTTP/1.1 404 Not Found"
+2026-09-08 22:12:26,587 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Anatolian_rock_reliefs "HTTP/1.1 404 Not Found"
+2026-09-08 22:12:26,851 [httpx] INFO: HTTP Request: GET https://www.bradshawfoundation.com/cave_art_europe_central_asia.php "HTTP/1.1 404 Not Found"
+2026-09-08 22:12:27,169 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Cup_and_ring_mark "HTTP/1.1 200 OK"
+2026-09-08 22:12:27,715 [httpx] INFO: HTTP Request: GET https://en.wikipedia.org/wiki/Hittite_rock_monuments "HTTP/1.1 404 Not Found"
+2026-09-08 22:12:27,717 [core.agent_base] INFO: [SembolAjan²] Í­renildi: 1 yeni g³venilir domain
+INFO:     192.168.1.111:53734 - "GET /api/ecosystem/status HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53735 - "GET /api/ecosystem/feed?limit=40 HTTP/1.1" 200 OK
+INFO:     192.168.1.111:53736 - "GET /api/ecosystem/alerts HTTP/1.1" 200 OK
